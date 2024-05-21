@@ -1,6 +1,6 @@
 {
   "vaultName": "Data Science",
-  "lastExport": 1716275718330,
+  "lastExport": 1716276463257,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title",
   "useCustomHeadContent": false,
@@ -160,6 +160,7 @@
     "lib/media/favicon.png",
     "lib/scripts/graph-data.js",
     "lib/styles/obsidian.css",
+    "lib/styles/other-plugins.css",
     "lib/styles/theme.css",
     "lib/styles/global-variable-styles.css",
     "lib/styles/main-styles.css"
@@ -213,13 +214,14 @@
     "lib/media/favicon.png",
     "lib/scripts/graph-data.js",
     "lib/styles/obsidian.css",
+    "lib/styles/other-plugins.css",
     "lib/styles/theme.css",
     "lib/styles/global-variable-styles.css",
     "lib/styles/main-styles.css"
   ],
   "fileInfo": {
     "COS10022 Data Science Principles/Association Rules/Association Rules.md": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 9948,
       "exportedPath": "cos10022-data-science-principles/association-rules/association-rules.html",
       "dependencies": [
@@ -230,7 +232,7 @@
       ]
     },
     "COS10022 Data Science Principles/Association Rules/Creating Frequent Sets Example.md": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 2653,
       "exportedPath": "cos10022-data-science-principles/association-rules/creating-frequent-sets-example.html",
       "dependencies": [
@@ -238,7 +240,7 @@
       ]
     },
     "COS10022 Data Science Principles/Data Analytics Lifecycle/Data Analytics Lifecycle.md": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 11275,
       "exportedPath": "cos10022-data-science-principles/data-analytics-lifecycle/data-analytics-lifecycle.html",
       "dependencies": [
@@ -248,13 +250,13 @@
       ]
     },
     "COS10022 Data Science Principles/Data Analytics Lifecycle/Data Analytics Lifecycle Canvas.canvas": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 2478,
       "exportedPath": "cos10022-data-science-principles/data-analytics-lifecycle/data-analytics-lifecycle-canvas.html",
       "dependencies": []
     },
     "COS10022 Data Science Principles/Data Preparation/(Chi-Square) test.md": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 252,
       "exportedPath": "cos10022-data-science-principles/data-preparation/(chi-square)-test.html",
       "dependencies": [
@@ -264,7 +266,7 @@
       ]
     },
     "COS10022 Data Science Principles/Data Preparation/Attribute subset selection.md": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1733,
       "exportedPath": "cos10022-data-science-principles/data-preparation/attribute-subset-selection.html",
       "dependencies": [
@@ -273,7 +275,7 @@
       ]
     },
     "COS10022 Data Science Principles/Data Preparation/Correlation coefficient.md": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 391,
       "exportedPath": "cos10022-data-science-principles/data-preparation/correlation-coefficient.html",
       "dependencies": [
@@ -281,7 +283,7 @@
       ]
     },
     "COS10022 Data Science Principles/Data Preparation/Covariance.md": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 325,
       "exportedPath": "cos10022-data-science-principles/data-preparation/covariance.html",
       "dependencies": [
@@ -289,7 +291,7 @@
       ]
     },
     "COS10022 Data Science Principles/Data Preparation/Data cube aggregation.md": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 597,
       "exportedPath": "cos10022-data-science-principles/data-preparation/data-cube-aggregation.html",
       "dependencies": [
@@ -297,7 +299,7 @@
       ]
     },
     "COS10022 Data Science Principles/Data Preparation/Data Preparation.md": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 6601,
       "exportedPath": "cos10022-data-science-principles/data-preparation/data-preparation.html",
       "dependencies": [
@@ -307,7 +309,7 @@
       ]
     },
     "COS10022 Data Science Principles/Data Preparation/Dimensionality reduction.md": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 815,
       "exportedPath": "cos10022-data-science-principles/data-preparation/dimensionality-reduction.html",
       "dependencies": [
@@ -315,7 +317,7 @@
       ]
     },
     "COS10022 Data Science Principles/Data Preparation/Numerosity reduction.md": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1835,
       "exportedPath": "cos10022-data-science-principles/data-preparation/numerosity-reduction.html",
       "dependencies": [
@@ -327,7 +329,7 @@
       ]
     },
     "COS10022 Data Science Principles/Basic Data Analytics Methods.md": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 4101,
       "exportedPath": "cos10022-data-science-principles/basic-data-analytics-methods.html",
       "dependencies": [
@@ -340,31 +342,31 @@
       ]
     },
     "COS10022 Data Science Principles/COS10022 Data Science Principles.md": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 85,
       "exportedPath": "cos10022-data-science-principles/cos10022-data-science-principles.html",
       "dependencies": []
     },
     "COS10022 Data Science Principles/Data Ethics.md": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1260,
       "exportedPath": "cos10022-data-science-principles/data-ethics.html",
       "dependencies": []
     },
     "COS10022 Data Science Principles/Data Security.md": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1034,
       "exportedPath": "cos10022-data-science-principles/data-security.html",
       "dependencies": []
     },
     "COS10022 Data Science Principles/Data Store.md": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1237,
       "exportedPath": "cos10022-data-science-principles/data-store.html",
       "dependencies": []
     },
     "COS10022 Data Science Principles/Ensemble Learning.md": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 5459,
       "exportedPath": "cos10022-data-science-principles/ensemble-learning.html",
       "dependencies": [
@@ -372,835 +374,841 @@
       ]
     },
     "COS10022 Data Science Principles/Problem Formulation.md": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1180,
       "exportedPath": "cos10022-data-science-principles/problem-formulation.html",
       "dependencies": []
     },
     "Images/Responsibility Driven Design/Composition in a Responsibility Driven Design.png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 267398,
       "exportedPath": "images/responsibility-driven-design/composition-in-a-responsibility-driven-design.png",
       "dependencies": []
     },
     "Images/Responsibility Driven Design/Dependencies in Responsibility Driven Design.png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 502569,
       "exportedPath": "images/responsibility-driven-design/dependencies-in-responsibility-driven-design.png",
       "dependencies": []
     },
     "Images/Responsibility Driven Design/Permanent relationship in Responsibility Driven Design.png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 476178,
       "exportedPath": "images/responsibility-driven-design/permanent-relationship-in-responsibility-driven-design.png",
       "dependencies": []
     },
     "Images/Responsibility Driven Design/Responsibilities in a Responsibility Driven Design (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1919619,
       "exportedPath": "images/responsibility-driven-design/responsibilities-in-a-responsibility-driven-design-(1).png",
       "dependencies": []
     },
     "Images/Responsibility Driven Design/Whole-Part relation in Responsibility Driven Design.png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 198486,
       "exportedPath": "images/responsibility-driven-design/whole-part-relation-in-responsibility-driven-design.png",
       "dependencies": []
     },
     "Images/ANOVA Example (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1395938,
       "exportedPath": "images/anova-example-(1).png",
       "dependencies": []
     },
     "Images/Apriori Algorithm Example (2).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1658114,
       "exportedPath": "images/apriori-algorithm-example-(2).png",
       "dependencies": []
     },
     "Images/Apriori Algorithm Pseudo Code Image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 843809,
       "exportedPath": "images/apriori-algorithm-pseudo-code-image-(1).png",
       "dependencies": []
     },
     "Images/Association rules example image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 316696,
       "exportedPath": "images/association-rules-example-image-(1).png",
       "dependencies": []
     },
     "Images/Binning and histogram example (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1027699,
       "exportedPath": "images/binning-and-histogram-example-(1).png",
       "dependencies": []
     },
     "Images/c sharp exceptions errors handling (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 667729,
       "exportedPath": "images/c-sharp-exceptions-errors-handling-(1).png",
       "dependencies": []
     },
     "Images/Chi squared example (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1144356,
       "exportedPath": "images/chi-squared-example-(1).png",
       "dependencies": []
     },
     "Images/Chi squared test example Image (2).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 886319,
       "exportedPath": "images/chi-squared-test-example-image-(2).png",
       "dependencies": []
     },
     "Images/Chi-squared formula Image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 951227,
       "exportedPath": "images/chi-squared-formula-image-(1).png",
       "dependencies": []
     },
     "Images/Cloud Service Models Image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 135799,
       "exportedPath": "images/cloud-service-models-image-(1).png",
       "dependencies": []
     },
     "Images/Cluster sample and Stratified sample (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1378037,
       "exportedPath": "images/cluster-sample-and-stratified-sample-(1).png",
       "dependencies": []
     },
     "Images/Clustering Example (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 460930,
       "exportedPath": "images/clustering-example-(1).png",
       "dependencies": []
     },
     "Images/Correlation Coefficient Formula Image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1018967,
       "exportedPath": "images/correlation-coefficient-formula-image-(1).png",
       "dependencies": []
     },
     "Images/Covariance Formula Image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 835644,
       "exportedPath": "images/covariance-formula-image-(1).png",
       "dependencies": []
     },
     "Images/Data Cube Aggregation Image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 2152707,
       "exportedPath": "images/data-cube-aggregation-image-(1).png",
       "dependencies": []
     },
     "Images/Data Integration Image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 579279,
       "exportedPath": "images/data-integration-image-(1).png",
       "dependencies": []
     },
     "Images/Data Science Categories Image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 682020,
       "exportedPath": "images/data-science-categories-image-(1).png",
       "dependencies": []
     },
     "Images/Data Science Glossary.pdf": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 35207,
       "exportedPath": "images/data-science-glossary.pdf",
       "dependencies": []
     },
     "Images/Data Science Roadmap Image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 344839,
       "exportedPath": "images/data-science-roadmap-image-(1).png",
       "dependencies": []
     },
     "Images/Decision Tree Analysis (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 746827,
       "exportedPath": "images/decision-tree-analysis-(1).png",
       "dependencies": []
     },
     "Images/Decision tree induction example (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 427559,
       "exportedPath": "images/decision-tree-induction-example-(1).png",
       "dependencies": []
     },
     "Images/Dimensional Reduction Image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 473580,
       "exportedPath": "images/dimensional-reduction-image-(1).png",
       "dependencies": []
     },
     "Images/ELT Example in the Data analytics Lifecycle (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1294689,
       "exportedPath": "images/elt-example-in-the-data-analytics-lifecycle-(1).png",
       "dependencies": []
     },
     "Images/Error messages example (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 672640,
       "exportedPath": "images/error-messages-example-(1).png",
       "dependencies": []
     },
     "Images/ETL Example In the data analytics lifecycle (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1343258,
       "exportedPath": "images/etl-example-in-the-data-analytics-lifecycle-(1).png",
       "dependencies": []
     },
     "Images/Forward and backward elimination and selection Image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 420563,
       "exportedPath": "images/forward-and-backward-elimination-and-selection-image-(1).png",
       "dependencies": []
     },
     "Images/Github version control explanation image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 805790,
       "exportedPath": "images/github-version-control-explanation-image-(1).png",
       "dependencies": []
     },
     "Images/Hexbinplot Example (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 353764,
       "exportedPath": "images/hexbinplot-example-(1).png",
       "dependencies": []
     },
     "Images/Hierarchy Concept Generation Example (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 389164,
       "exportedPath": "images/hierarchy-concept-generation-example-(1).png",
       "dependencies": []
     },
     "Images/How Random Forest Work (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 851202,
       "exportedPath": "images/how-random-forest-work-(1).png",
       "dependencies": []
     },
     "Images/How to do normalization (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1330032,
       "exportedPath": "images/how-to-do-normalization-(1).png",
       "dependencies": []
     },
     "Images/Hypothesis Testing Image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 690704,
       "exportedPath": "images/hypothesis-testing-image-(1).png",
       "dependencies": []
     },
     "Images/Image about Scope (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 953464,
       "exportedPath": "images/image-about-scope-(1).png",
       "dependencies": []
     },
     "Images/JSON file type example Image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 23021,
       "exportedPath": "images/json-file-type-example-image-(1).png",
       "dependencies": []
     },
     "Images/Leverage example in association rules (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1572617,
       "exportedPath": "images/leverage-example-in-association-rules-(1).png",
       "dependencies": []
     },
     "Images/Lift example in Association Rules (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 870920,
       "exportedPath": "images/lift-example-in-association-rules-(1).png",
       "dependencies": []
     },
     "Images/Mean, Median, Mode.png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 138089,
       "exportedPath": "images/mean,-median,-mode.png",
       "dependencies": []
     },
     "Images/Model Building Workflow (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 539014,
       "exportedPath": "images/model-building-workflow-(1).png",
       "dependencies": []
     },
     "Images/Parametric method of Numerosity reduction (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1463339,
       "exportedPath": "images/parametric-method-of-numerosity-reduction-(1).png",
       "dependencies": []
     },
     "Images/PDF file type example Image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 184688,
       "exportedPath": "images/pdf-file-type-example-image-(1).png",
       "dependencies": []
     },
     "Images/Relational databases Image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 734916,
       "exportedPath": "images/relational-databases-image-(1).png",
       "dependencies": []
     },
     "Images/Relational vs Non-Relational databases image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1236782,
       "exportedPath": "images/relational-vs-non-relational-databases-image-(1).png",
       "dependencies": []
     },
     "Images/Relative Standing (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 167238,
       "exportedPath": "images/relative-standing-(1).png",
       "dependencies": []
     },
     "Images/Sampling, SRSWOR and SRSWR (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1104752,
       "exportedPath": "images/sampling,-srswor-and-srswr-(1).png",
       "dependencies": []
     },
     "Images/SQL About Relational Database Image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 978761,
       "exportedPath": "images/sql-about-relational-database-image-(1).png",
       "dependencies": []
     },
     "Images/SQL Elemetns image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 477610,
       "exportedPath": "images/sql-elemetns-image-(1).png",
       "dependencies": []
     },
     "Images/Standard deviation (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 133816,
       "exportedPath": "images/standard-deviation-(1).png",
       "dependencies": []
     },
     "Images/Structured, Unstructured and Semi-Structured Data Image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 988761,
       "exportedPath": "images/structured,-unstructured-and-semi-structured-data-image-(1).png",
       "dependencies": []
     },
     "Images/XLSX file type example Image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 271164,
       "exportedPath": "images/xlsx-file-type-example-image-(1).png",
       "dependencies": []
     },
     "Images/XML file type example Image (1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 105905,
       "exportedPath": "images/xml-file-type-example-image-(1).png",
       "dependencies": []
     },
     "lib/media/association-rules-example-image-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 316696,
       "exportedPath": "lib/media/association-rules-example-image-(1).png",
       "dependencies": []
     },
     "lib/media/apriori-algorithm-pseudo-code-image-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 843809,
       "exportedPath": "lib/media/apriori-algorithm-pseudo-code-image-(1).png",
       "dependencies": []
     },
     "lib/media/lift-example-in-association-rules-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 870920,
       "exportedPath": "lib/media/lift-example-in-association-rules-(1).png",
       "dependencies": []
     },
     "lib/media/leverage-example-in-association-rules-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1572617,
       "exportedPath": "lib/media/leverage-example-in-association-rules-(1).png",
       "dependencies": []
     },
     "lib/media/apriori-algorithm-example-(2).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1658114,
       "exportedPath": "lib/media/apriori-algorithm-example-(2).png",
       "dependencies": []
     },
     "lib/media/etl-example-in-the-data-analytics-lifecycle-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1343258,
       "exportedPath": "lib/media/etl-example-in-the-data-analytics-lifecycle-(1).png",
       "dependencies": []
     },
     "lib/media/elt-example-in-the-data-analytics-lifecycle-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1294689,
       "exportedPath": "lib/media/elt-example-in-the-data-analytics-lifecycle-(1).png",
       "dependencies": []
     },
     "lib/media/model-building-workflow-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 539014,
       "exportedPath": "lib/media/model-building-workflow-(1).png",
       "dependencies": []
     },
     "lib/media/chi-squared-formula-image-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 951227,
       "exportedPath": "lib/media/chi-squared-formula-image-(1).png",
       "dependencies": []
     },
     "lib/media/chi-squared-example-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1144356,
       "exportedPath": "lib/media/chi-squared-example-(1).png",
       "dependencies": []
     },
     "lib/media/chi-squared-test-example-image-(2).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 886319,
       "exportedPath": "lib/media/chi-squared-test-example-image-(2).png",
       "dependencies": []
     },
     "lib/media/forward-and-backward-elimination-and-selection-image-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 420563,
       "exportedPath": "lib/media/forward-and-backward-elimination-and-selection-image-(1).png",
       "dependencies": []
     },
     "lib/media/decision-tree-induction-example-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 427559,
       "exportedPath": "lib/media/decision-tree-induction-example-(1).png",
       "dependencies": []
     },
     "lib/media/correlation-coefficient-formula-image-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1018967,
       "exportedPath": "lib/media/correlation-coefficient-formula-image-(1).png",
       "dependencies": []
     },
     "lib/media/covariance-formula-image-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 835644,
       "exportedPath": "lib/media/covariance-formula-image-(1).png",
       "dependencies": []
     },
     "lib/media/data-cube-aggregation-image-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 2152707,
       "exportedPath": "lib/media/data-cube-aggregation-image-(1).png",
       "dependencies": []
     },
     "lib/media/how-to-do-normalization-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1330032,
       "exportedPath": "lib/media/how-to-do-normalization-(1).png",
       "dependencies": []
     },
     "lib/media/decision-tree-analysis-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 746827,
       "exportedPath": "lib/media/decision-tree-analysis-(1).png",
       "dependencies": []
     },
     "lib/media/hierarchy-concept-generation-example-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 389164,
       "exportedPath": "lib/media/hierarchy-concept-generation-example-(1).png",
       "dependencies": []
     },
     "lib/media/dimensional-reduction-image-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 473580,
       "exportedPath": "lib/media/dimensional-reduction-image-(1).png",
       "dependencies": []
     },
     "lib/media/parametric-method-of-numerosity-reduction-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1463339,
       "exportedPath": "lib/media/parametric-method-of-numerosity-reduction-(1).png",
       "dependencies": []
     },
     "lib/media/binning-and-histogram-example-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1027699,
       "exportedPath": "lib/media/binning-and-histogram-example-(1).png",
       "dependencies": []
     },
     "lib/media/clustering-example-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 460930,
       "exportedPath": "lib/media/clustering-example-(1).png",
       "dependencies": []
     },
     "lib/media/sampling,-srswor-and-srswr-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1104752,
       "exportedPath": "lib/media/sampling,-srswor-and-srswr-(1).png",
       "dependencies": []
     },
     "lib/media/cluster-sample-and-stratified-sample-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1378037,
       "exportedPath": "lib/media/cluster-sample-and-stratified-sample-(1).png",
       "dependencies": []
     },
     "lib/media/mean,-median,-mode.png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 138089,
       "exportedPath": "lib/media/mean,-median,-mode.png",
       "dependencies": []
     },
     "lib/media/standard-deviation-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 133816,
       "exportedPath": "lib/media/standard-deviation-(1).png",
       "dependencies": []
     },
     "lib/media/relative-standing-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 167238,
       "exportedPath": "lib/media/relative-standing-(1).png",
       "dependencies": []
     },
     "lib/media/hexbinplot-example-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 353764,
       "exportedPath": "lib/media/hexbinplot-example-(1).png",
       "dependencies": []
     },
     "lib/media/hypothesis-testing-image-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 690704,
       "exportedPath": "lib/media/hypothesis-testing-image-(1).png",
       "dependencies": []
     },
     "lib/media/anova-example-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1395938,
       "exportedPath": "lib/media/anova-example-(1).png",
       "dependencies": []
     },
     "lib/media/how-random-forest-work-(1).png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 851202,
       "exportedPath": "lib/media/how-random-forest-work-(1).png",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 70548,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 2313,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 157786,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
+    "lib/styles/other-plugins.css": {
+      "modifiedTime": 1716276463257,
+      "sourceSize": 3450,
+      "exportedPath": "lib/styles/other-plugins.css",
+      "dependencies": []
+    },
     "lib/styles/theme.css": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 23119,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1716275718330,
+      "modifiedTime": 1716276463257,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
