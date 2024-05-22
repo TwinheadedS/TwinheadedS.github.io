@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Data Science]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Data Science</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 21 May 2024 07:27:46 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 21 May 2024 07:27:43 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Association Rules]]></title><description><![CDATA[ 
- <br># Association Rules Overview
-Copy<br>Association rules are a fundamental concept in data mining and machine learning<br>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Data Science]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Data Science</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 22 May 2024 07:24:18 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 22 May 2024 07:24:12 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Association Rules Overview]]></title><description><![CDATA[ 
+ <br><br>Association rules are a fundamental concept in data mining and machine learning<br>
 Can be used in recommendation systems, used to discover the potential connection between one product to another<br>
 <br>It is an unsupervised learning method
 <br>A descriptive, not predictive method
@@ -107,7 +106,7 @@ If the corresponding hashing bucket count of a k-itemset is below a certain thre
 Dynamic itemset counting<br>
 Only add new candidate itemsets when all of their subsets are estimated to be frequent
 
-]]></description><link>cos10022-data-science-principles\association-rules\association-rules.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Association Rules/Association Rules.md</guid><pubDate>Wed, 15 May 2024 11:15:47 GMT</pubDate><enclosure url="lib\media\association-rules-example-image-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\association-rules-example-image-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Creating Frequent Sets Example]]></title><description><![CDATA[ 
+]]></description><link>cos10022-data-science-principles\association-rules\association-rules.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Association Rules/Association Rules.md</guid><pubDate>Tue, 21 May 2024 10:10:06 GMT</pubDate><enclosure url="lib\media\association-rules-example-image-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\association-rules-example-image-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Creating Frequent Sets Example]]></title><description><![CDATA[ 
  <br><br>Apriori employs an iterative approach known as a level-wise search, where k-itemsets are used to explore (k+1) - itemsets<br>When using top to bottom method, we check occurrences from a single item denoted by L1, two items denoted by L2 and so forth, until no more frequent k-itemsets can be found<br>
 The finding of each Lk requires one full scan of the database! (Which going to make searching a while)
 <br>e.g. Transactions<br><br>We define the minimum support 3/5 = 60% which we want our support must be above 3<br>L1 (1-itemsets)<br><br>L2 (2-itemsets) (No need to generate candidates involving Coke or Eggs)<br><br>L3 (3-itemsets) (We don't need to go down further as they are already in a minimal support)<br><br>Another example :<br>
@@ -139,13 +138,18 @@ What are the data sources? What are the target fields, columns and attributes? H
 <br>Survey and Visualize<br>
 Does the data represent the population of interest? Does the data distribution stay consistent over all the data?
 <br><br>Here we are going to use the introduction the innovation analytics case study at EMC Corp<br>
-<a data-tooltip-position="top" aria-label="https://stevetodd.typepad.com/my_weblog/2012/03/phase-2-innovation-analytics-data-preparation-1.html" rel="noopener" class="external-link" href="https://stevetodd.typepad.com/my_weblog/2012/03/phase-2-innovation-analytics-data-preparation-1.html" target="_blank">Information Playground: Phase 2 Innovation Analytics: Data Preparation (typepad.com)</a><br><br><br><br>The data science team determines the methods, techniques and workflow. The team also explores the data to learn about the relationships between variables to select the most suitable models<br><br>
+<a data-tooltip-position="top" aria-label="https://stevetodd.typepad.com/my_weblog/2012/03/phase-2-innovation-analytics-data-preparation-1.html" rel="noopener" class="external-link" href="https://stevetodd.typepad.com/my_weblog/2012/03/phase-2-innovation-analytics-data-preparation-1.html" target="_blank">Information Playground: Phase 2 Innovation Analytics: Data Preparation (typepad.com)</a><br><br><br><br>The data science team determines the methods, techniques and workflow. The team also explores the data to learn about the relationships between variables to select the most suitable models<br><br>This activity aims at choosing an analytical technique (a model) based on the end goal of the project<br>What is a model?<br>
+A thing that we can describe happening in the natural world (an attempt to understand reality)<br>The popular model that we are using nowadays are in the machine learning algorithms field (most of it is based on statistics)<br>There are three different approaches to selecting machine learning models :<br>
+<br>Supervised Learning
+<br>Unsupervised Learning
+<br>Semi-supervised learning
+<br><br>
 <br>Data exploration and variable selection<br>
 Understand the variable. Stakeholders and domain experts may have pre-existing yet flawed assumptions about the data, Hence, the data science team's role is to objectively question these assumptions and correct and bias. Capture the most essential predictors!
 <br>Model Selection<br>
 Common tools to be used = R, SQL Analysis Service, Microsoft SAS / Access
 <br><br>Here we are going to use the introduction the innovation analytics case study at EMC Corp<br>
-<a data-tooltip-position="top" aria-label="https://stevetodd.typepad.com/my_weblog/2012/05/phase-3-innovation-analytics-.html" rel="noopener" class="external-link" href="https://stevetodd.typepad.com/my_weblog/2012/05/phase-3-innovation-analytics-.html" target="_blank">Information Playground: Phase 3 Innovation Analytics: Model Planning (typepad.com)</a><br><br><br><br>The team develops datasets from testing, training and production purposes. The team builds and executes models based on the work done in the model planning phase<br><br><img alt="Model Building Workflow (1).png" src="\lib\media\model-building-workflow-(1).png"><br><br>
+<a data-tooltip-position="top" aria-label="https://stevetodd.typepad.com/my_weblog/2012/05/phase-3-innovation-analytics-.html" rel="noopener" class="external-link" href="https://stevetodd.typepad.com/my_weblog/2012/05/phase-3-innovation-analytics-.html" target="_blank">Information Playground: Phase 3 Innovation Analytics: Model Planning (typepad.com)</a><br><br><br><br>The team develops datasets from testing, training and production purposes. The team builds and executes models based on the work done in the model planning phase<br>We do not always code an entirely new analytics model from scratch. Rather we select and experiment with various models, where applicable, fine tuning their parameters<br>Documentation is important here, it is vital to record the results and logic of the model. We must record any operating assumptions made concerning the data<br><br><img alt="Model Building Workflow (1).png" src="\lib\media\model-building-workflow-(1).png"><br><br>
 <br>Develop an analytical model, fit in on the training data and evaluate its performance on the Data<br>
 Training data : Used to discover a predictive relationship<br>
 Test data : Used to assess the strength and utility of a predictive relationship<br>
@@ -182,7 +186,7 @@ The risk can be better managed this way and in a way adjustments can still be ma
 Consider running a model in a production environment for a discrete set of products. Minimising risks, while allowing to fine-tune the model
 <br>Create mechanism for performing ongoing monitoring of model accuracy and if accuracy degrades, find ways to retrain the model
 <br><br>Here we are going to use the introduction the innovation analytics case study at EMC Corp<br>
-<a data-tooltip-position="top" aria-label="https://stevetodd.typepad.com/my_weblog/2012/07/phase-6-innovation-analytics-operationalize.html" rel="noopener" class="external-link" href="https://stevetodd.typepad.com/my_weblog/2012/07/phase-6-innovation-analytics-operationalize.html" target="_blank">Information Playground: Phase 6 Innovation Analytics: Operationalize (typepad.com)</a><br><br>]]></description><link>cos10022-data-science-principles\data-analytics-lifecycle\data-analytics-lifecycle.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Data Analytics Lifecycle/Data Analytics Lifecycle.md</guid><pubDate>Thu, 02 May 2024 12:12:38 GMT</pubDate><enclosure url="lib\media\etl-example-in-the-data-analytics-lifecycle-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\etl-example-in-the-data-analytics-lifecycle-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Data Analytics Lifecycle Canvas]]></title><description><![CDATA[ 
+<a data-tooltip-position="top" aria-label="https://stevetodd.typepad.com/my_weblog/2012/07/phase-6-innovation-analytics-operationalize.html" rel="noopener" class="external-link" href="https://stevetodd.typepad.com/my_weblog/2012/07/phase-6-innovation-analytics-operationalize.html" target="_blank">Information Playground: Phase 6 Innovation Analytics: Operationalize (typepad.com)</a><br><br>]]></description><link>cos10022-data-science-principles\data-analytics-lifecycle\data-analytics-lifecycle.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Data Analytics Lifecycle/Data Analytics Lifecycle.md</guid><pubDate>Tue, 21 May 2024 16:14:41 GMT</pubDate><enclosure url="lib\media\etl-example-in-the-data-analytics-lifecycle-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\etl-example-in-the-data-analytics-lifecycle-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Data Analytics Lifecycle Canvas]]></title><description><![CDATA[ 
  <br><br><br><br><br><br><br>Do I have enough information to draft an analytic plan?<br>Do I have enough "good" data to start building the model?<br>Do I have a good idea about the type of model to try? Can I refine my analytical plan?<br>Is the model robust enough? Have we failed enough?]]></description><link>cos10022-data-science-principles\data-analytics-lifecycle\data-analytics-lifecycle-canvas.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Data Analytics Lifecycle/Data Analytics Lifecycle Canvas.canvas</guid><pubDate>Thu, 02 May 2024 02:44:28 GMT</pubDate></item><item><title><![CDATA[Chi-Square test]]></title><description><![CDATA[ 
  <br><br>Chi-squared (X) test for categorical data<br>
 <img alt="Chi-squared formula Image (1).png" src="\lib\media\chi-squared-formula-image-(1).png"><br>
@@ -359,7 +363,148 @@ Same data can be drawn again cause after we record, we put the data back to the 
 We pre-classify the data into different clusters and decide how many samples do you want to have from each of the group equally
 <br>Stratified Sample<br>
 Tuples in D is divided into mutually disjoint parts called strata (50% of the group in the raw data), with sampling random sampling at each stratum
-]]></description><link>cos10022-data-science-principles\data-preparation\numerosity-reduction.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Data Preparation/Numerosity reduction.md</guid><pubDate>Mon, 06 May 2024 03:42:32 GMT</pubDate><enclosure url="lib\media\parametric-method-of-numerosity-reduction-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\parametric-method-of-numerosity-reduction-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Data analytics methods]]></title><description><![CDATA[ 
+]]></description><link>cos10022-data-science-principles\data-preparation\numerosity-reduction.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Data Preparation/Numerosity reduction.md</guid><pubDate>Mon, 06 May 2024 03:42:32 GMT</pubDate><enclosure url="lib\media\parametric-method-of-numerosity-reduction-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\parametric-method-of-numerosity-reduction-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[(1) Data Science Overview]]></title><description><![CDATA[ 
+ <br>
+<br><a data-tooltip-position="top" aria-label="(1) Data Science Overview" data-href="#(1) Data Science Overview" href="\#(1)_Data_Science_Overview" class="internal-link" target="_self" rel="noopener">(1) Data Science Overview</a>
+
+<br><a data-tooltip-position="top" aria-label="Data Structure" data-href="#Data Structure" href="\#Data_Structure" class="internal-link" target="_self" rel="noopener">Data Structure</a>
+<br><a data-tooltip-position="top" aria-label="Data Science vs Enterprise Data Warehouse" data-href="#Data Science vs Enterprise Data Warehouse" href="\#Data_Science_vs_Enterprise_Data_Warehouse" class="internal-link" target="_self" rel="noopener">Data Science vs Enterprise Data Warehouse</a>
+<br><a data-tooltip-position="top" aria-label="Data Science vs Business Intelligence" data-href="#Data Science vs Business Intelligence" href="\#Data_Science_vs_Business_Intelligence" class="internal-link" target="_self" rel="noopener">Data Science vs Business Intelligence</a>
+<br><a data-tooltip-position="top" aria-label="Big Data" data-href="#Big Data" href="\#Big_Data" class="internal-link" target="_self" rel="noopener">Big Data</a>
+<br><a data-tooltip-position="top" aria-label="Analytic Sandbox (Workspaces)" data-href="#Analytic Sandbox (Workspaces)" href="\#Analytic_Sandbox_(Workspaces)" class="internal-link" target="_self" rel="noopener">Analytic Sandbox (Workspaces)</a>
+
+
+<br><br>Data scientist is capable of analyzing and interpreting complex digital data to assist a business in its decision-making<br>Data science is a combination of computer science, math and statistics and domain knowledge<br>
+Computer Science + Domain Knowledge = Traditional Software<br>
+Computer Science + Math and Statistics = Machine Learning<br>
+Math and Statistics + Domain Knowledge = Traditional Research<br><br>Structured = Relational DBMS<br>
+Semi-Structured = Extensible Markup Language (XML), JSON, CSV, etc<br>
+Quasi-Structured = Web click stream<br>
+Unstructured = Text documents, PDFs, images, videos, etc<br><br>Data warehouse is a relational database that is designed for query and analysis rather than for transaction processing. Contains selective, cleaned and transformed historical data<br>Data warehouse include :<br>
+<br>ETL (Extraction, Transformation and Loading)
+<br>Limitations of the enterprise data warehouse analytics :<br>
+<br>High-value data is hard to reach and leverage
+<br>Data usually moves in batches from data warehouse to local analytics tools (e.g. R, SAS, Excel)
+<br>Data science projects remain isolated and ad-hoc, rather than centrally managed
+<br><br>Business intelligence is a more compact thing as we have lower data compared to today.<br>
+Now we have plenty of data science to play with that is why data science started to grow. In data science we will encounter things that is more out of the box (More exploratory)<br><br>4 important element of big data :<br>
+<br>Timeliness
+<br>Scale
+<br>Diversity
+<br>Accuracy
+<br>Big data 4 Vs :<br>
+<br>Volume
+
+<br>Scale
+
+
+<br>Variety
+
+<br>Diversity
+<br>Distribution
+
+
+<br>Velocity
+
+<br>Timeliness
+
+
+<br>Veracity
+
+<br>Pertaining to the accuracy of the data
+
+
+<br><br>Sandbox is a concept that we do not want to do experimental things in real world system as if something crashes then everything is destroyed<br>
+<br>The sandbox is a simulation environment that can simulate the same thing from the outside world
+<br>Data assets can be gathered from multiple sources for analysis
+<br>"Analyst owned" rather than "DBA owned"
+]]></description><link>cos10022-data-science-principles\(1)-data-science.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(1) Data Science.md</guid><pubDate>Tue, 21 May 2024 12:17:46 GMT</pubDate></item><item><title><![CDATA[(2) Regressions Overview]]></title><description><![CDATA[ 
+ <br>
+<br><a data-tooltip-position="top" aria-label="(2) Regressions Overview" data-href="#(2) Regressions Overview" href="\#(2)_Regressions_Overview" class="internal-link" target="_self" rel="noopener">(2) Regressions Overview</a>
+
+<br><a data-tooltip-position="top" aria-label="Predictive Models" data-href="#Predictive Models" href="\#Predictive_Models" class="internal-link" target="_self" rel="noopener">Predictive Models</a>
+<br><a data-tooltip-position="top" aria-label="Linear regression" data-href="#Linear regression" href="\#Linear_regression" class="internal-link" target="_self" rel="noopener">Linear regression</a>
+
+<br><a data-tooltip-position="top" aria-label="Formula" data-href="#Formula" href="\#Formula" class="internal-link" target="_self" rel="noopener">Formula</a>
+<br><a data-tooltip-position="top" aria-label="Anscombe's quartet" data-href="#Anscombe's quartet" href="\#Anscombe's_quartet" class="internal-link" target="_self" rel="noopener">Anscombe's quartet</a>
+<br><a data-tooltip-position="top" aria-label="Preparing data for linear regression" data-href="#Preparing data for linear regression" href="\#Preparing_data_for_linear_regression" class="internal-link" target="_self" rel="noopener">Preparing data for linear regression</a>
+
+
+<br><a data-tooltip-position="top" aria-label="Logistic Regression" data-href="#Logistic Regression" href="\#Logistic_Regression" class="internal-link" target="_self" rel="noopener">Logistic Regression</a>
+
+<br><a data-tooltip-position="top" aria-label="Formula" data-href="#Formula" href="\#Formula" class="internal-link" target="_self" rel="noopener">Formula</a>
+
+
+
+
+<br><br>Regression is the most simple data science model (Linear or Logistic)<br>
+Simple and does not require long training time<br>Regression is part of the Model building stage in the <a data-href="Data Analytics Lifecycle" href="\cos10022-data-science-principles\data-analytics-lifecycle\data-analytics-lifecycle.html" class="internal-link" target="_self" rel="noopener">Data Analytics Lifecycle</a><br><br>Predictive models are data analytics algorithms used for predicting certain attributes of a given object<br>
+The goal of predictive model differs from unsupervised models which are limited to finding specific patterns or structures within the data
+<br>Predictive models works by training the data then testing the model with a test dataset<br>
+(Training and test datasets are independent of each other)<br><br>Linear regression is one of the oldest supervised / predictive models. Linear regression belongs to what is called parametric learning or parameter modeling<br>
+Its goal is to understand the relationship between input and output variables<br>disadvantages :<br>
+<br>Can only predict numerical values
+<br>Will not work for modeling non-linear relationships
+<br><br> a = is moving steepness of the line<br>
+b = is where the line starts<br>Linear regression will create a line that go through the data points and if the data points is closer to the line, the result will be more accurate<br>
+Linear regression assumes that a linear relationship exists between the input and output variable
+<br>Best-fitting regression line is decided from finding the the regression line that minimizes the prediction error. The common measure of such error is sum of the squared errors (SSE)<br>Standard Deviation (S or S)<br>
+Standard deviation is telling us how diverse the data is<br>Pearson's correlation coefficient / Collinearity (r)<br>
+It measures the strength of association between two variables<br>
+1 / -1 = High collinearity (High accuracy)<br>
+0 = Low collinearity (Low accuracy)<br><br>Anscombe's quartet is a set of four datasets that have nearly identical simple descriptive statistics (mean, variance) but very different distributions and appearances when graphed<br>Outliers can happen that is why graphing our data is important<br><br>Usually everything in the real world is in Gaussian (normal) distributions (Bell shaped in the data)<br>Gaussian distribution is where the mean is usually 0 there is positive part and negative part<br>
+Normal distribution is where the mean value is not 0<br>Some data can be uniform distribution not gaussian distribution<br>Normalisation<br>
+It is used to change the observations so that they can be described as normal distribution<br>
+Normalisation can use maximum and minimum value to make something to be in the center<br>
+<br>Standardisation<br>
+It is also called z-score normalisation, which transfors the data so that the resulting distribution has a mean of 0 and a standard deviation of 1<br>
+<br><br>Logistic regression is a special case of regression analysis and is calculated when the dependent variable is nominally or ordinally scaled<br><br>Logistic regression uses sigmoid function<br>Sigmoid Function (S)<br>
+It only produces 0 (Belongs to one particular group) and 1 (Belongs to the other particular group)<br>
+e.g. yes (1) or no (0)
+<br>A logistic function or logistic curve is a common S-shaped curve (Sigmoid curve) with equation<br><br>where z stands for the linear regression function]]></description><link>cos10022-data-science-principles\(2)-regressions.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(2) Regressions.md</guid><pubDate>Tue, 21 May 2024 12:30:10 GMT</pubDate></item><item><title><![CDATA[(3) Clustering Overview]]></title><description><![CDATA[ 
+ <br>
+<br><a data-tooltip-position="top" aria-label="(3) Clustering Overview" data-href="#(3) Clustering Overview" href="\#(3)_Clustering_Overview" class="internal-link" target="_self" rel="noopener">(3) Clustering Overview</a>
+
+<br><a data-tooltip-position="top" aria-label="k-Means Clustering" data-href="#k-Means Clustering" href="\#k-Means_Clustering" class="internal-link" target="_self" rel="noopener">k-Means Clustering</a>
+
+<br><a data-tooltip-position="top" aria-label="The Algorithm" data-href="#The Algorithm" href="\#The_Algorithm" class="internal-link" target="_self" rel="noopener">The Algorithm</a>
+<br><a data-tooltip-position="top" aria-label="WSS (Within-Cluster Sum of Squares)" data-href="#WSS (Within-Cluster Sum of Squares)" href="\#WSS_(Within-Cluster_Sum_of_Squares)" class="internal-link" target="_self" rel="noopener">WSS (Within-Cluster Sum of Squares)</a>
+<br><a data-tooltip-position="top" aria-label="Silhouette Analysis" data-href="#Silhouette Analysis" href="\#Silhouette_Analysis" class="internal-link" target="_self" rel="noopener">Silhouette Analysis</a>
+
+
+<br><a data-tooltip-position="top" aria-label="DBSCAN (Data Distribution-oriented Consideration)" data-href="#DBSCAN (Data Distribution-oriented Consideration)" href="\#DBSCAN_(Data_Distribution-oriented_Consideration)" class="internal-link" target="_self" rel="noopener">DBSCAN (Data Distribution-oriented Consideration)</a>
+<br><a data-tooltip-position="top" aria-label="The Algorithm" data-href="#The Algorithm" href="\#The_Algorithm" class="internal-link" target="_self" rel="noopener">The Algorithm</a>
+
+
+<br><br><br>It is an unsupervised learning algorithm used to cluster datasets<br>
+The goal is to group the data points in such a way that points in the same cluster are more similar to each other than to those in other clusters.<br>It is not a very stable method as every time we have different initial criteria, we will have different result<br><br>
+<br>k-Means k is defined by the user<br>
+Choose the value of k for the centroids (Center of mass)
+<br>Assignment<br>
+For each data point, compute the distance to each centroid and assign the point to the nearest centroid
+<br>Update<br>
+Calculate the new centroids by computing the mean of the data points in each cluster.
+<br>Repeat:<br>
+Reassign data points to the nearest centroid and update centroids until convergence.
+<br><br>It is the measure of the compactness of the clusters and is used to evaluate the quality of the clustering<br>WSS is often used in conjunction with the elbow method to determine the optimal number of clusters 𝑘<br>Elbow method<br>
+Elbow point is where the rate of decrease in WSS slows down significantly. The elbow point represents the optimal number of clusters, beyond which adding more clusters does not result in significant improvement in WSS<br><br>Silhouette Analysis is telling us how diverse our data is<br>Silhouette analysis is a method used to evaluate the quality of clusters created. It provides a measure of how similar an object is to its own cluster (cohesion) compared to other clusters (separation). <br>The silhouette score ranges from -1 (Assigned to the wrong cluster) to 1 (Well-matched to its own cluster)<br><br>It is a popular clustering algorithm used in machine learning and data mining<br>It gives us a better cut for the data even though they are tangling together because it is based on minimum number of points(minPts),  Epsilon(e) <br>
+<br>Epsilon (ε): A radius parameter that defines the neighborhood around a data point. Two points are considered neighbors if the distance between them is less than or equal to ε.
+<br>MinPts: The minimum number of points required to form a dense region (core point).
+<br>Core Point: A point is a core point if it has at least MinPts points (including itself) within its ε-neighborhood.
+<br>Border Point: A point that is not a core point but falls within the ε-neighborhood of a core point.
+<br>Noise Point: A point that is neither a core point nor a border point, meaning it does not satisfy the density requirement.
+<br><br>
+<br>Identify Core Points: For each point in the dataset, determine if it is a core point by checking if it has at least MinPts points within its ε-neighborhood.
+<br>Cluster Formation:
+
+<br>Start with an arbitrary unvisited point and determine if it is a core point.
+<br>If it is a core point, create a new cluster and recursively add all its density-connected neighbors (core points and border points) to this cluster.
+<br>If it is not a core point, label it as noise (temporarily; it might be classified later as a border point of another cluster).
+
+
+<br>Expand Clusters: Continue expanding clusters by visiting each point in the ε-neighborhood of core points until all points have been visited.
+]]></description><link>cos10022-data-science-principles\(3)-clustering.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(3) Clustering.md</guid><pubDate>Tue, 21 May 2024 16:50:30 GMT</pubDate></item><item><title><![CDATA[(4) Naïve Bayes Classifier Overview]]></title><description><![CDATA[ 
+ <br>]]></description><link>cos10022-data-science-principles\(4)-naïve-bayes-classifier.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(4) Naïve Bayes Classifier.md</guid><pubDate>Wed, 22 May 2024 07:23:46 GMT</pubDate></item><item><title><![CDATA[Data analytics methods]]></title><description><![CDATA[ 
  <br><br><br>EDA is an approach to analysing datasets to summarize their main characteristics, often with visual methods<br>We can easily shows the relationship a data with Survey and visualize<br>
 Four important types of data visualization :<br>
 <br>Tables
@@ -415,8 +560,60 @@ The power of a test improves as the sample size increases<br>In the difference o
 <br>As the sample size becomes larger, it is easier to detect a given effect size
 <br><br>Here we also compare using the means<br>
 Compared to T-test we test 1 single group to the overall population but in ANOVA we can compare multiple groups simultaneously<br>
-<img alt="ANOVA Example (1).png" src="\lib\media\anova-example-(1).png">]]></description><link>cos10022-data-science-principles\basic-data-analytics-methods.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Basic Data Analytics Methods.md</guid><pubDate>Mon, 06 May 2024 11:46:40 GMT</pubDate><enclosure url="lib\media\mean,-median,-mode.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\mean,-median,-mode.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[COS10022 Data Science Principles Overview]]></title><description><![CDATA[ 
- <br><br>FolderContains 0 folders, 2 notes.Association RulesFolderContains 0 folders, 2 notes.Data Analytics LifecycleFolderContains 0 folders, 8 notes.Data Preparation<a class="internal-link" href="\cos10022-data-science-principles\basic-data-analytics-methods.html" target="_self"></a>EDA is an approach to analysing datasets to summarize their main...5/6/2024, 9:46:40 PMNote<a class="internal-link" href="\cos10022-data-science-principles\data-ethics.html" target="_self"></a>It refers to the moral principles and values that govern the col...5/2/2024, 11:08:16 PMNote<a class="internal-link" href="\cos10022-data-science-principles\data-security.html" target="_self"></a>It refers to the protection of digital data such as files, datab...5/2/2024, 11:13:38 PMNote<a class="internal-link" href="\cos10022-data-science-principles\data-store.html" target="_self"></a>The basic unit in computer systems, everything is stored in bits5/2/2024, 10:52:17 PM<a class="internal-link" href="\cos10022-data-science-principles\ensemble-learning.html" target="_self"></a>Ensemble learning is a machine learning technique where multiple...5/15/2024, 3:26:08 PMNote<a class="internal-link" href="\cos10022-data-science-principles\problem-formulation.html" target="_self"></a>Using proper techniques to solve the problem5/2/2024, 12:26:49 PM]]></description><link>cos10022-data-science-principles\cos10022-data-science-principles.html</link><guid isPermaLink="false">COS10022 Data Science Principles/COS10022 Data Science Principles.md</guid><pubDate>Thu, 02 May 2024 12:39:27 GMT</pubDate></item><item><title><![CDATA[Data Ethics]]></title><description><![CDATA[ 
+<img alt="ANOVA Example (1).png" src="\lib\media\anova-example-(1).png">]]></description><link>cos10022-data-science-principles\basic-data-analytics-methods.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Basic Data Analytics Methods.md</guid><pubDate>Mon, 06 May 2024 11:46:40 GMT</pubDate><enclosure url="lib\media\mean,-median,-mode.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\mean,-median,-mode.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[COS10022 Data Science Principles]]></title><description><![CDATA[ 
+ <br><br>
+<br>
+<a data-href="(1) Data Science" href="\cos10022-data-science-principles\(1)-data-science.html" class="internal-link" target="_self" rel="noopener">(1) Data Science</a>
+
+<br>
+<a data-href="(2) Regressions" href="\cos10022-data-science-principles\(2)-regressions.html" class="internal-link" target="_self" rel="noopener">(2) Regressions</a>
+
+<br>
+<a data-href="(3) Clustering" href="\cos10022-data-science-principles\(3)-clustering.html" class="internal-link" target="_self" rel="noopener">(3) Clustering</a>
+
+<br>
+<a data-href="(4) Naïve Bayes Classifier" href="\cos10022-data-science-principles\(4)-naïve-bayes-classifier.html" class="internal-link" target="_self" rel="noopener">(4) Naïve Bayes Classifier</a>
+
+<br>
+<a data-href="Association Rules" href="\cos10022-data-science-principles\association-rules\association-rules.html" class="internal-link" target="_self" rel="noopener">Association Rules</a>
+
+<br><a data-href="Creating Frequent Sets Example" href="\cos10022-data-science-principles\association-rules\creating-frequent-sets-example.html" class="internal-link" target="_self" rel="noopener">Creating Frequent Sets Example</a>
+
+
+<br>
+<a data-href="Basic Data Analytics Methods" href="\cos10022-data-science-principles\basic-data-analytics-methods.html" class="internal-link" target="_self" rel="noopener">Basic Data Analytics Methods</a>
+
+<br>
+<a data-href="Data Analytics Lifecycle" href="\cos10022-data-science-principles\data-analytics-lifecycle\data-analytics-lifecycle.html" class="internal-link" target="_self" rel="noopener">Data Analytics Lifecycle</a>
+
+<br>
+<a data-href="Data Ethics" href="\cos10022-data-science-principles\data-ethics.html" class="internal-link" target="_self" rel="noopener">Data Ethics</a>
+
+<br>
+<a data-href="Data Preparation" href="\cos10022-data-science-principles\data-preparation\data-preparation.html" class="internal-link" target="_self" rel="noopener">Data Preparation</a>
+
+<br><a data-href="(Chi-Square) test" href="\cos10022-data-science-principles\data-preparation\(chi-square)-test.html" class="internal-link" target="_self" rel="noopener">(Chi-Square) test</a>
+<br><a data-href="Attribute subset selection" href="\cos10022-data-science-principles\data-preparation\attribute-subset-selection.html" class="internal-link" target="_self" rel="noopener">Attribute subset selection</a>
+<br><a data-href="Correlation coefficient" href="\cos10022-data-science-principles\data-preparation\correlation-coefficient.html" class="internal-link" target="_self" rel="noopener">Correlation coefficient</a>
+<br><a data-href="Covariance" href="\cos10022-data-science-principles\data-preparation\covariance.html" class="internal-link" target="_self" rel="noopener">Covariance</a>
+<br><a data-href="Data cube aggregation" href="\cos10022-data-science-principles\data-preparation\data-cube-aggregation.html" class="internal-link" target="_self" rel="noopener">Data cube aggregation</a>
+<br><a data-href="Dimensionality reduction" href="\cos10022-data-science-principles\data-preparation\dimensionality-reduction.html" class="internal-link" target="_self" rel="noopener">Dimensionality reduction</a>
+<br><a data-href="Numerosity reduction" href="\cos10022-data-science-principles\data-preparation\numerosity-reduction.html" class="internal-link" target="_self" rel="noopener">Numerosity reduction</a>
+
+
+<br>
+<a data-href="Data Security" href="\cos10022-data-science-principles\data-security.html" class="internal-link" target="_self" rel="noopener">Data Security</a>
+
+<br>
+<a data-href="Data Store" href="\cos10022-data-science-principles\data-store.html" class="internal-link" target="_self" rel="noopener">Data Store</a>
+
+<br>
+<a data-href="Ensemble Learning" href="\cos10022-data-science-principles\ensemble-learning.html" class="internal-link" target="_self" rel="noopener">Ensemble Learning</a>
+
+<br>
+<a data-href="Problem Formulation" href="\cos10022-data-science-principles\problem-formulation.html" class="internal-link" target="_self" rel="noopener">Problem Formulation</a>
+
+<br><br>FolderContains 0 folders, 2 notes.Association RulesFolderContains 0 folders, 2 notes.Data Analytics LifecycleFolderContains 0 folders, 8 notes.Data PreparationNote<a class="internal-link" href="\cos10022-data-science-principles\(1)-data-science.html" target="_self"></a>`table-of-contents5/21/2024, 10:17:46 PMNote<a class="internal-link" href="\cos10022-data-science-principles\(2)-regressions.html" target="_self"></a>`table-of-contents5/21/2024, 10:30:10 PMNote<a class="internal-link" href="\cos10022-data-science-principles\(3)-clustering.html" target="_self"></a>`table-of-contents5/22/2024, 2:50:30 AMNote<a class="internal-link" href="\cos10022-data-science-principles\(4)-naïve-bayes-classifier.html" target="_self"></a> (4) Naïve Bayes Classifier Overview5/22/2024, 5:23:46 PM<a class="internal-link" href="\cos10022-data-science-principles\basic-data-analytics-methods.html" target="_self"></a>EDA is an approach to analysing datasets to summarize their main...5/6/2024, 9:46:40 PMNote<a class="internal-link" href="\cos10022-data-science-principles\data-ethics.html" target="_self"></a>It refers to the moral principles and values that govern the col...5/2/2024, 11:08:16 PMNote<a class="internal-link" href="\cos10022-data-science-principles\data-security.html" target="_self"></a>It refers to the protection of digital data such as files, datab...5/2/2024, 11:13:38 PMNote<a class="internal-link" href="\cos10022-data-science-principles\data-store.html" target="_self"></a>The basic unit in computer systems, everything is stored in bits5/2/2024, 10:52:17 PM<a class="internal-link" href="\cos10022-data-science-principles\ensemble-learning.html" target="_self"></a>Ensemble learning is a machine learning technique where multiple...5/15/2024, 3:26:08 PMNote<a class="internal-link" href="\cos10022-data-science-principles\problem-formulation.html" target="_self"></a>Using proper techniques to solve the problem5/2/2024, 12:26:49 PM]]></description><link>cos10022-data-science-principles\cos10022-data-science-principles.html</link><guid isPermaLink="false">COS10022 Data Science Principles/COS10022 Data Science Principles.md</guid><pubDate>Wed, 22 May 2024 07:23:38 GMT</pubDate></item><item><title><![CDATA[Data Ethics]]></title><description><![CDATA[ 
  <br><br>It refers to the moral principles and values that govern the collection, use and dissemination of data<br>Data ethics involves a range of considerations including :<br>
 <br>Privacy<br>
 Protecting the personal information of individuals and preventing its misuse
