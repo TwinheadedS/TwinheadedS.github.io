@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Data Science]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Data Science</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 22 May 2024 11:33:21 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 22 May 2024 11:33:16 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[(6) Association Rules Overview]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Data Science]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Data Science</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 22 May 2024 14:04:27 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 22 May 2024 14:04:20 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[(6) Association Rules Overview]]></title><description><![CDATA[ 
  <br>
 <br><a data-tooltip-position="top" aria-label="(6) Association Rules Overview" data-href="#(6) Association Rules Overview" href="\#(6)_Association_Rules_Overview" class="internal-link" target="_self" rel="noopener">(6) Association Rules Overview</a>
 
@@ -612,17 +612,23 @@ Elbow point is where the rate of decrease in WSS slows down significantly. The e
 <br>False Negatives (FN): Number of incorrectly predicted negative cases.
 <br>
 <br>Accuracy<br>
-Accuracy measures the overall correctness of a classification model
+Accuracy measures the overall correctness of a classification model<br>
+
 <br>True Positive Rate (TPR) - Sensitivity or Recall<br>
-Measures the proportion of actual positives that are correctly identified by the model
+Measures the proportion of actual positives that are correctly identified by the model<br>
+
 <br>True Negative Rate (TNR) - Specificity or Selectivity<br>
-Measures the proportion of actual negatives that are correctly identified by the model
-<br>False Positive Rate (FPR) - Fall-out<br>
-Measures the proportion of actual negatives that are incorrectly classified as positives
-<br>Fales Negative Rate (FNR) - Missing Rate<br>
-Measures the proportion of actual positives that are incorrectly classified as negatives
+Measures the proportion of actual negatives that are correctly identified by the model<br>
+
+<br>False Positive Rate (FPR) - Fall-out (Type I Error)<br>
+Measures the proportion of actual negatives that are incorrectly classified as positives<br>
+
+<br>Fales Negative Rate (FNR) - Missing Rate (Type II Error)<br>
+Measures the proportion of actual positives that are incorrectly classified as negatives<br>
+
 <br>Precision = True Positive / Predictive Condition Positive<br>
-Measures the proportion of positive predictions that are actually correct
+Measures the proportion of positive predictions that are actually correct<br>
+
 <br>Area Under the Curve (AUC) - Plasma Concentration-time Profile
 <br><br>Three different types of validation<br>
 <br>Holdout cross validation ("Percentage split")<br>
@@ -634,7 +640,7 @@ This method takes 1 record as the test set and uses all remaining records as the
 <br><br>Evaluating unsupervised learning models can be more challenging than evaluating supervised models because there are no ground truth labels to directly compare the predictions against<br>We can try to ask domain experts to subjectively inspect the results of an unsupervised model and provide their feedback<br>
 There are objective evaluation metrics that can be used however, it is usually differ from one unsupervised model to another<br>e.g.<br>
 k-Means clustering uses Silhouette and WSS<br>
-Association rules uses Support, Confidence, Lift, Leverage]]></description><link>cos10022-data-science-principles\(4)-model-evaluation.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(4) Model Evaluation.md</guid><pubDate>Wed, 22 May 2024 08:49:48 GMT</pubDate></item><item><title><![CDATA[(4) Naïve Bayes Classifier Overview]]></title><description><![CDATA[ 
+Association rules uses Support, Confidence, Lift, Leverage]]></description><link>cos10022-data-science-principles\(4)-model-evaluation.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(4) Model Evaluation.md</guid><pubDate>Wed, 22 May 2024 13:16:32 GMT</pubDate></item><item><title><![CDATA[(4) Naïve Bayes Classifier Overview]]></title><description><![CDATA[ 
  <br>
 <br><a data-tooltip-position="top" aria-label="(4) Naïve Bayes Classifier Overview" data-href="#(4) Naïve Bayes Classifier Overview" href="\#(4)_Naïve_Bayes_Classifier_Overview" class="internal-link" target="_self" rel="noopener">(4) Naïve Bayes Classifier Overview</a>
 
@@ -832,7 +838,25 @@ It uses 3 elements (Latitude, Longtitude and Timestamp)
 <br>
 <br>Discrete
 <br>Check out <a data-href="Data Types" href="\data-organization\data-types\data-types.html" class="internal-link" target="_self" rel="noopener">Data Types</a>]]></description><link>cos10022-data-science-principles\(7)-data-store.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(7) Data Store.md</guid><pubDate>Wed, 22 May 2024 10:41:47 GMT</pubDate></item><item><title><![CDATA[Data analytics methods]]></title><description><![CDATA[ 
- <br><br><br>EDA is an approach to analysing datasets to summarize their main characteristics, often with visual methods<br>We can easily shows the relationship a data with Survey and visualize<br>
+ <br>
+<br><a data-tooltip-position="top" aria-label="Data analytics methods" data-href="#Data analytics methods" href="\#Data_analytics_methods" class="internal-link" target="_self" rel="noopener">Data analytics methods</a>
+
+<br><a data-tooltip-position="top" aria-label="Exploratory Data Analysis (EDA)" data-href="#Exploratory Data Analysis (EDA)" href="\#Exploratory_Data_Analysis_(EDA)" class="internal-link" target="_self" rel="noopener">Exploratory Data Analysis (EDA)</a>
+
+<br><a data-tooltip-position="top" aria-label="Descriptive statistics" data-href="#Descriptive statistics" href="\#Descriptive_statistics" class="internal-link" target="_self" rel="noopener">Descriptive statistics</a>
+<br><a data-tooltip-position="top" aria-label="Exploration vs Presentation" data-href="#Exploration vs Presentation" href="\#Exploration_vs_Presentation" class="internal-link" target="_self" rel="noopener">Exploration vs Presentation</a>
+
+
+<br><a data-tooltip-position="top" aria-label="Statistical Methods for Evaluation" data-href="#Statistical Methods for Evaluation" href="\#Statistical_Methods_for_Evaluation" class="internal-link" target="_self" rel="noopener">Statistical Methods for Evaluation</a>
+
+<br><a data-tooltip-position="top" aria-label="Hypothesis Testing" data-href="#Hypothesis Testing" href="\#Hypothesis_Testing" class="internal-link" target="_self" rel="noopener">Hypothesis Testing</a>
+<br><a data-tooltip-position="top" aria-label="Power and Sample Size" data-href="#Power and Sample Size" href="\#Power_and_Sample_Size" class="internal-link" target="_self" rel="noopener">Power and Sample Size</a>
+<br><a data-tooltip-position="top" aria-label="Analysis of Variance (ANOVA)" data-href="#Analysis of Variance (ANOVA)" href="\#Analysis_of_Variance_(ANOVA)" class="internal-link" target="_self" rel="noopener">Analysis of Variance (ANOVA)</a>
+
+
+
+
+<br><br><br>EDA is an approach to analysing datasets to summarize their main characteristics, often with visual methods<br>We can easily shows the relationship a data with Survey and visualize<br>
 Four important types of data visualization :<br>
 <br>Tables
 <br>Charts
@@ -858,6 +882,7 @@ e.g. Quantiles / Quartiles<br>
 <br>Examining multiple variables can use :<br>
 <br>Linear regression but if it does not work, we can use the loess curve function
 <br>Dotplot to visualize multiple variables, with dotplot with color coding (Scatterplot matrix)
+<br>Barplot
 <br>Box and whisker
 <br>When you encounter a big data type of  problem, it is hard to see the distributed data inside the cluster. Here we can use Hexbinplot, which combines the idea of scatterplot and histogram and uses shading to represent the concentration of data in each hexbin<br>
 <img alt="Hexbinplot Example (1).png" src="\lib\media\hexbinplot-example-(1).png">
@@ -887,7 +912,45 @@ The power of a test improves as the sample size increases<br>In the difference o
 <br>As the sample size becomes larger, it is easier to detect a given effect size
 <br><br>Here we also compare using the means<br>
 Compared to T-test we test 1 single group to the overall population but in ANOVA we can compare multiple groups simultaneously<br>
-<img alt="ANOVA Example (1).png" src="\lib\media\anova-example-(1).png">]]></description><link>cos10022-data-science-principles\basic-data-analytics-methods.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Basic Data Analytics Methods.md</guid><pubDate>Mon, 06 May 2024 11:46:40 GMT</pubDate><enclosure url="lib\media\mean,-median,-mode.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\mean,-median,-mode.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[COS10022 Data Science Principles]]></title><description><![CDATA[ 
+<img alt="ANOVA Example (1).png" src="\lib\media\anova-example-(1).png">]]></description><link>cos10022-data-science-principles\(9)-basic-data-analytics-methods.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(9) Basic Data Analytics Methods.md</guid><pubDate>Wed, 22 May 2024 13:08:45 GMT</pubDate><enclosure url="lib\media\mean,-median,-mode.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\mean,-median,-mode.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Artificial Neural Network (ANN) Overview]]></title><description><![CDATA[ 
+ <br>
+<br><a data-tooltip-position="top" aria-label="Artificial Neural Network (ANN) Overview" data-href="#Artificial Neural Network (ANN) Overview" href="\#Artificial_Neural_Network_(ANN)_Overview" class="internal-link" target="_self" rel="noopener">Artificial Neural Network (ANN) Overview</a>
+
+<br><a data-tooltip-position="top" aria-label="Percepton (P)" data-href="#Percepton (P)" href="\#Percepton_(P)" class="internal-link" target="_self" rel="noopener">Percepton (P)</a>
+
+<br><a data-tooltip-position="top" aria-label="Parameters" data-href="#Parameters" href="\#Parameters" class="internal-link" target="_self" rel="noopener">Parameters</a>
+
+
+<br><a data-tooltip-position="top" aria-label="Feed Forward Neural Network (FFNN)" data-href="#Feed Forward Neural Network (FFNN)" href="\#Feed_Forward_Neural_Network_(FFNN)" class="internal-link" target="_self" rel="noopener">Feed Forward Neural Network (FFNN)</a>
+<br><a data-tooltip-position="top" aria-label="Radial Basis Function Neural Network (RBF)" data-href="#Radial Basis Function Neural Network (RBF)" href="\#Radial_Basis_Function_Neural_Network_(RBF)" class="internal-link" target="_self" rel="noopener">Radial Basis Function Neural Network (RBF)</a>
+<br><a data-tooltip-position="top" aria-label="Kohonen Self Organising Neural Network" data-href="#Kohonen Self Organising Neural Network" href="\#Kohonen_Self_Organising_Neural_Network" class="internal-link" target="_self" rel="noopener">Kohonen Self Organising Neural Network</a>
+<br><a data-tooltip-position="top" aria-label="Recurrent Neural Network (RNN)" data-href="#Recurrent Neural Network (RNN)" href="\#Recurrent_Neural_Network_(RNN)" class="internal-link" target="_self" rel="noopener">Recurrent Neural Network (RNN)</a>
+<br><a data-tooltip-position="top" aria-label="Convolution Neural Network (CNN)" data-href="#Convolution Neural Network (CNN)" href="\#Convolution_Neural_Network_(CNN)" class="internal-link" target="_self" rel="noopener">Convolution Neural Network (CNN)</a>
+
+
+<br><br>It is a learning method under the machine learning subject<br>
+An Artificial Neural Network (ANN) is a computational model inspired by the way biological neural networks in the human brain process information<br>They consist of interconnected nodes, called neurons, organized into layers<br><br>It consist of input output node and it can contain hidden layer<br>
+Used primarily for binary classification tasks<br>It is cutting the solution into different group (Prediction of category)<br>
+Based on the cut there is two types :<br>
+<br>Linearly Separable<br>
+You can directly use mathematical function here
+<br>Not Linearly Seprable<br>
+You need to convert it into different coordination system or multiple cuts<br>
+e.g. Polar Coordination
+<br><br>A perceptron consists of a single neuron and includes the following components:<br>
+<br>Input Features (𝑥1,𝑥2,...,𝑥𝑛​): The input values (features) that the perceptron receives.
+<br>Weights (𝑤1,𝑤2,...,𝑤𝑛​): Each input feature is associated with a weight that determines its importance.
+<br>Bias (𝑏): An additional parameter that allows the activation threshold to be adjusted independently of the input values.
+<br>Activation Function: A function that processes the weighted sum of the inputs and produces the output.<br>
+where:
+<br>
+<br>𝑦 is the output of the perceptron.
+<br>𝑥𝑖​ are the input features.
+<br>𝑤𝑖​ are the weights associated with the input features.
+<br>𝑏 is the bias term.
+<br>𝑓 is the activation function (usually a step function).
+<br>Sigmoid Function, Threshold function, Relu function is used to round the output of the node<br><br>Perceptron is also a type of the FFNN<br>In this architecture, the information moves in only one direction—forward—from the input nodes, through the hidden nodes (if any), and finally to the output nodes. There are no cycles or loops in the network.<br>Feedforward Neural Networks are foundational models in deep learning, providing the basis for more complex architectures like Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs).<br><br>A Radial Basis Function Neural Network (RBFNN) is a type of artificial neural network that uses radial basis functions as activation functions. It is particularly well-suited for tasks involving pattern recognition, function approximation, and time-series prediction. The RBFNN is structured differently from traditional feedforward neural networks, primarily in how it processes inputs and generates outputs<br>RBF Neural Networks are powerful tools for specific tasks where the local approximation of the input space is beneficial. Their unique structure and training process make them suitable for applications requiring fast and accurate pattern recognition or function approximation<br>RBF uses neuron as the centroid (Center point of the group)<br>
+It use the distribution to represent how far this thing is from the centroid<br><br>The Kohonen Self-Organizing Map (SOM), also known as the Kohonen Map. It is an unsupervised learning algorithm used for clustering and visualization of high-dimensional data. Unlike other neural networks, SOMs are particularly known for their ability to preserve the topological properties of the input space, meaning they maintain the spatial relationships between the input data points in their mapping.<br><br>A Recurrent Neural Network (RNN) is a type of artificial neural network designed to recognize patterns in sequences of data, such as time series, speech, text, and video. Unlike traditional feedforward neural networks, RNNs have connections that form directed cycles, enabling them to maintain a memory of previous inputs. This makes RNNs particularly well-suited for tasks where the context or sequence of the input data is important.<br><br>A Convolutional Neural Network (CNN) is a type of artificial neural network specifically designed to process and analyze grid-like data structures, such as images. CNNs are particularly effective for tasks involving image and video recognition, image classification, and other tasks that involve spatial hierarchies.]]></description><link>cos10022-data-science-principles\(10)-artificial-neural-network-(ann).html</link><guid isPermaLink="false">COS10022 Data Science Principles/(10) Artificial Neural Network (ANN).md</guid><pubDate>Wed, 22 May 2024 14:03:51 GMT</pubDate></item><item><title><![CDATA[COS10022 Data Science Principles]]></title><description><![CDATA[ 
  <br><br>
 <br><a data-href="COS10022 Data Science Principles" href="\cos10022-data-science-principles\cos10022-data-science-principles.html" class="internal-link" target="_self" rel="noopener">COS10022 Data Science Principles</a>
 
@@ -923,8 +986,9 @@ Compared to T-test we test 1 single group to the overall population but in ANOVA
 <br><a data-href="Numerosity reduction" href="\cos10022-data-science-principles\(8)-data-preparation\numerosity-reduction.html" class="internal-link" target="_self" rel="noopener">Numerosity reduction</a>
 
 
-<br><a data-href="Basic Data Analytics Methods" href="\cos10022-data-science-principles\basic-data-analytics-methods.html" class="internal-link" target="_self" rel="noopener">Basic Data Analytics Methods</a>
+<br><a data-href="(9) Basic Data Analytics Methods" href="\cos10022-data-science-principles\(9)-basic-data-analytics-methods.html" class="internal-link" target="_self" rel="noopener">(9) Basic Data Analytics Methods</a>
+<br><a data-href="(10) Artificial Neural Network (ANN)" href="\cos10022-data-science-principles\(10)-artificial-neural-network-(ann).html" class="internal-link" target="_self" rel="noopener">(10) Artificial Neural Network (ANN)</a>
 <br><a data-href="COS10022 Data Science Principles" href="\cos10022-data-science-principles\cos10022-data-science-principles.html" class="internal-link" target="_self" rel="noopener">COS10022 Data Science Principles</a>
 
 
-<br><br><br>FolderContains 0 folders, 2 notes.(6) Association RulesFolderContains 0 folders, 3 notes.(7) Data Analytics LifecycleFolderContains 0 folders, 8 notes.(8) Data PreparationNote<a class="internal-link" href="\cos10022-data-science-principles\(1)-data-science.html" target="_self"></a>`table-of-contents5/21/2024, 10:17:46 PMNote<a class="internal-link" href="\cos10022-data-science-principles\(2)-regressions.html" target="_self"></a>`table-of-contents5/22/2024, 8:10:57 PMNote<a class="internal-link" href="\cos10022-data-science-principles\(3)-clustering.html" target="_self"></a>`table-of-contents5/22/2024, 2:50:30 AMNote<a class="internal-link" href="\cos10022-data-science-principles\(4)-model-evaluation.html" target="_self"></a>`table-of-contents5/22/2024, 6:49:48 PMNote<a class="internal-link" href="\cos10022-data-science-principles\(4)-naïve-bayes-classifier.html" target="_self"></a>`table-of-contents5/22/2024, 6:04:26 PM<a class="internal-link" href="\cos10022-data-science-principles\(5)-ensemble-learning.html" target="_self"></a>`table-of-contents5/22/2024, 6:50:03 PMNote<a class="internal-link" href="\cos10022-data-science-principles\(7)-data-ethics-&amp;-security.html" target="_self"></a>`table-of-contents5/22/2024, 8:41:15 PMNote<a class="internal-link" href="\cos10022-data-science-principles\(7)-data-store.html" target="_self"></a>`table-of-contents5/22/2024, 8:41:47 PM<a class="internal-link" href="\cos10022-data-science-principles\basic-data-analytics-methods.html" target="_self"></a>EDA is an approach to analysing datasets to summarize their main...5/6/2024, 9:46:40 PM]]></description><link>cos10022-data-science-principles\cos10022-data-science-principles.html</link><guid isPermaLink="false">COS10022 Data Science Principles/COS10022 Data Science Principles.md</guid><pubDate>Wed, 22 May 2024 10:53:25 GMT</pubDate></item></channel></rss>
+<br><br><br>FolderContains 0 folders, 2 notes.(6) Association RulesFolderContains 0 folders, 3 notes.(7) Data Analytics LifecycleFolderContains 0 folders, 8 notes.(8) Data PreparationNote<a class="internal-link" href="\cos10022-data-science-principles\(1)-data-science.html" target="_self"></a>`table-of-contents5/21/2024, 10:17:46 PMNote<a class="internal-link" href="\cos10022-data-science-principles\(10)-artificial-neural-network-(ann).html" target="_self"></a>`table-of-contents5/23/2024, 12:03:51 AMNote<a class="internal-link" href="\cos10022-data-science-principles\(2)-regressions.html" target="_self"></a>`table-of-contents5/22/2024, 8:10:57 PMNote<a class="internal-link" href="\cos10022-data-science-principles\(3)-clustering.html" target="_self"></a>`table-of-contents5/22/2024, 2:50:30 AMNote<a class="internal-link" href="\cos10022-data-science-principles\(4)-model-evaluation.html" target="_self"></a>`table-of-contents5/22/2024, 11:16:32 PMNote<a class="internal-link" href="\cos10022-data-science-principles\(4)-naïve-bayes-classifier.html" target="_self"></a>`table-of-contents5/22/2024, 6:04:26 PM<a class="internal-link" href="\cos10022-data-science-principles\(5)-ensemble-learning.html" target="_self"></a>`table-of-contents5/22/2024, 6:50:03 PMNote<a class="internal-link" href="\cos10022-data-science-principles\(7)-data-ethics-&amp;-security.html" target="_self"></a>`table-of-contents5/22/2024, 8:41:15 PMNote<a class="internal-link" href="\cos10022-data-science-principles\(7)-data-store.html" target="_self"></a>`table-of-contents5/22/2024, 8:41:47 PM<a class="internal-link" href="\cos10022-data-science-principles\(9)-basic-data-analytics-methods.html" target="_self"></a>`table-of-contents5/22/2024, 11:08:45 PM]]></description><link>cos10022-data-science-principles\cos10022-data-science-principles.html</link><guid isPermaLink="false">COS10022 Data Science Principles/COS10022 Data Science Principles.md</guid><pubDate>Wed, 22 May 2024 13:21:35 GMT</pubDate></item></channel></rss>
