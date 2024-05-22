@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Data Science]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Data Science</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 22 May 2024 09:59:23 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 22 May 2024 09:59:18 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[(6) Association Rules Overview]]></title><description><![CDATA[ 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Data Science]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>Data Science</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 22 May 2024 11:33:21 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 22 May 2024 11:33:16 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[(6) Association Rules Overview]]></title><description><![CDATA[ 
  <br>
 <br><a data-tooltip-position="top" aria-label="(6) Association Rules Overview" data-href="#(6) Association Rules Overview" href="\#(6)_Association_Rules_Overview" class="internal-link" target="_self" rel="noopener">(6) Association Rules Overview</a>
 
@@ -125,12 +125,59 @@ If the corresponding hashing bucket count of a k-itemset is below a certain thre
 Dynamic itemset counting<br>
 Only add new candidate itemsets when all of their subsets are estimated to be frequent
 
-]]></description><link>cos10022-data-science-principles\(6)-association-rules\(6)-association-rules.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(6) Association Rules/(6) Association Rules.md</guid><pubDate>Wed, 22 May 2024 09:53:36 GMT</pubDate><enclosure url="lib\media\association-rules-example-image-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\association-rules-example-image-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Creating Frequent Sets Example]]></title><description><![CDATA[ 
+]]></description><link>cos10022-data-science-principles\(6)-association-rules\(6)-association-rules.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(6) Association Rules/(6) Association Rules.md</guid><pubDate>Wed, 22 May 2024 10:06:30 GMT</pubDate><enclosure url="lib\media\association-rules-example-image-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\association-rules-example-image-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Creating Frequent Sets Example]]></title><description><![CDATA[ 
  <br><br>Apriori employs an iterative approach known as a level-wise search, where k-itemsets are used to explore (k+1) - itemsets<br>When using top to bottom method, we check occurrences from a single item denoted by L1, two items denoted by L2 and so forth, until no more frequent k-itemsets can be found<br>
 The finding of each Lk requires one full scan of the database! (Which going to make searching a while)
 <br>e.g. Transactions<br><br>We define the minimum support 3/5 = 60% which we want our support must be above 3<br>L1 (1-itemsets)<br><br>L2 (2-itemsets) (No need to generate candidates involving Coke or Eggs)<br><br>L3 (3-itemsets) (We don't need to go down further as they are already in a minimal support)<br><br>Another example :<br>
-<img alt="Apriori Algorithm Example (2).png" src="\lib\media\apriori-algorithm-example-(2).png">]]></description><link>cos10022-data-science-principles\(6)-association-rules\creating-frequent-sets-example.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(6) Association Rules/Creating Frequent Sets Example.md</guid><pubDate>Mon, 29 Apr 2024 04:34:21 GMT</pubDate><enclosure url="lib\media\apriori-algorithm-example-(2).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\apriori-algorithm-example-(2).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Data Analytics Lifecycle]]></title><description><![CDATA[ 
- <br><br>The real world is chaotic and so are its problems and data, that is why we need an order and sense-making in order to be able to measure the measures of success<br><br><br>Data science team learns the business domain and assesses the resources available to support the project in terms of people, technology, time and data<br>Activities that are important to do here are to frame the business problem as an analytics challenge and formulating initial hypotheses (IHs) to test and begin learning the data<br><br>
+<img alt="Apriori Algorithm Example (2).png" src="\lib\media\apriori-algorithm-example-(2).png">]]></description><link>cos10022-data-science-principles\(6)-association-rules\creating-frequent-sets-example.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(6) Association Rules/Creating Frequent Sets Example.md</guid><pubDate>Mon, 29 Apr 2024 04:34:21 GMT</pubDate><enclosure url="lib\media\apriori-algorithm-example-(2).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\apriori-algorithm-example-(2).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[(7) Data Analytics Lifecycle Overview]]></title><description><![CDATA[ 
+ <br>
+<br><a data-tooltip-position="top" aria-label="(7) Data Analytics Lifecycle Overview" data-href="#(7) Data Analytics Lifecycle Overview" href="\#(7)_Data_Analytics_Lifecycle_Overview" class="internal-link" target="_self" rel="noopener">(7) Data Analytics Lifecycle Overview</a>
+
+<br><a data-tooltip-position="top" aria-label="HiPPO Effect" data-href="#HiPPO Effect" href="\#HiPPO_Effect" class="internal-link" target="_self" rel="noopener">HiPPO Effect</a>
+<br><a data-tooltip-position="top" aria-label="Phase 1 - Discovery" data-href="#Phase 1 - Discovery" href="\#Phase_1_-_Discovery" class="internal-link" target="_self" rel="noopener">Phase 1 - Discovery</a>
+
+<br><a data-tooltip-position="top" aria-label="Key Activities" data-href="#Key Activities" href="\#Key_Activities" class="internal-link" target="_self" rel="noopener">Key Activities</a>
+<br><a data-tooltip-position="top" aria-label="Discovery case study" data-href="#Discovery case study" href="\#Discovery_case_study" class="internal-link" target="_self" rel="noopener">Discovery case study</a>
+
+
+<br><a data-tooltip-position="top" aria-label="Phase 2 - Data Preparation" data-href="#Phase 2 - Data Preparation" href="\#Phase_2_-_Data_Preparation" class="internal-link" target="_self" rel="noopener">Phase 2 - Data Preparation</a>
+
+<br><a data-tooltip-position="top" aria-label="When to use ETL or ELT?" data-href="#When to use ETL or ELT?" href="\#When_to_use_ETL_or_ELT" class="internal-link" target="_self" rel="noopener">When to use ETL or ELT?</a>
+<br><a data-tooltip-position="top" aria-label="Key Activities" data-href="#Key Activities" href="\#Key_Activities" class="internal-link" target="_self" rel="noopener">Key Activities</a>
+<br><a data-tooltip-position="top" aria-label="Discovery case study" data-href="#Discovery case study" href="\#Discovery_case_study" class="internal-link" target="_self" rel="noopener">Discovery case study</a>
+
+
+<br><a data-tooltip-position="top" aria-label="Phase 3 - Model Planning" data-href="#Phase 3 - Model Planning" href="\#Phase_3_-_Model_Planning" class="internal-link" target="_self" rel="noopener">Phase 3 - Model Planning</a>
+
+<br><a data-tooltip-position="top" aria-label="Model Selection" data-href="#Model Selection" href="\#Model_Selection" class="internal-link" target="_self" rel="noopener">Model Selection</a>
+<br><a data-tooltip-position="top" aria-label="Key Activities" data-href="#Key Activities" href="\#Key_Activities" class="internal-link" target="_self" rel="noopener">Key Activities</a>
+<br><a data-tooltip-position="top" aria-label="Discovery case study" data-href="#Discovery case study" href="\#Discovery_case_study" class="internal-link" target="_self" rel="noopener">Discovery case study</a>
+
+
+<br><a data-tooltip-position="top" aria-label="Phase 4 - Model Building" data-href="#Phase 4 - Model Building" href="\#Phase_4_-_Model_Building" class="internal-link" target="_self" rel="noopener">Phase 4 - Model Building</a>
+
+<br><a data-tooltip-position="top" aria-label="Workflow" data-href="#Workflow" href="\#Workflow" class="internal-link" target="_self" rel="noopener">Workflow</a>
+<br><a data-tooltip-position="top" aria-label="Key Activities" data-href="#Key Activities" href="\#Key_Activities" class="internal-link" target="_self" rel="noopener">Key Activities</a>
+<br><a data-tooltip-position="top" aria-label="Discovery case study" data-href="#Discovery case study" href="\#Discovery_case_study" class="internal-link" target="_self" rel="noopener">Discovery case study</a>
+
+
+<br><a data-tooltip-position="top" aria-label="Phase 5 - Communicate Results" data-href="#Phase 5 - Communicate Results" href="\#Phase_5_-_Communicate_Results" class="internal-link" target="_self" rel="noopener">Phase 5 - Communicate Results</a>
+
+<br><a data-tooltip-position="top" aria-label="Key Activities" data-href="#Key Activities" href="\#Key_Activities" class="internal-link" target="_self" rel="noopener">Key Activities</a>
+<br><a data-tooltip-position="top" aria-label="Discovery case study" data-href="#Discovery case study" href="\#Discovery_case_study" class="internal-link" target="_self" rel="noopener">Discovery case study</a>
+
+
+<br><a data-tooltip-position="top" aria-label="Phase 6 - Operationalise" data-href="#Phase 6 - Operationalise" href="\#Phase_6_-_Operationalise" class="internal-link" target="_self" rel="noopener">Phase 6 - Operationalise</a>
+
+<br><a data-tooltip-position="top" aria-label="Key Activities" data-href="#Key Activities" href="\#Key_Activities" class="internal-link" target="_self" rel="noopener">Key Activities</a>
+<br><a data-tooltip-position="top" aria-label="Discovery case study" data-href="#Discovery case study" href="\#Discovery_case_study" class="internal-link" target="_self" rel="noopener">Discovery case study</a>
+
+
+
+
+<br><br>The real world is chaotic and so are its problems and data, that is why we need an order and sense-making in order to be able to measure the measures of success<br><br>Highest Paid Person's Opinion (HiPPO) effect states that the authority figure's suggestions are interpreted as the final truth and promptly implemented even if the findings from the data are contrary<br>
+Let the data speaks for you but not the Human Bias
+<br><br>Data science team learns the business domain and assesses the resources available to support the project in terms of people, technology, time and data<br>Activities that are important to do here are to frame the business problem as an analytics challenge and formulating initial hypotheses (IHs) to test and begin learning the data<br><br>
 <br>Learning the business domain
 <br>Assessing the resources available to support the project
 <br>Framing the problem<br>
@@ -205,55 +252,33 @@ The risk can be better managed this way and in a way adjustments can still be ma
 Consider running a model in a production environment for a discrete set of products. Minimising risks, while allowing to fine-tune the model
 <br>Create mechanism for performing ongoing monitoring of model accuracy and if accuracy degrades, find ways to retrain the model
 <br><br>Here we are going to use the introduction the innovation analytics case study at EMC Corp<br>
-<a data-tooltip-position="top" aria-label="https://stevetodd.typepad.com/my_weblog/2012/07/phase-6-innovation-analytics-operationalize.html" rel="noopener" class="external-link" href="https://stevetodd.typepad.com/my_weblog/2012/07/phase-6-innovation-analytics-operationalize.html" target="_blank">Information Playground: Phase 6 Innovation Analytics: Operationalize (typepad.com)</a><br><br>]]></description><link>cos10022-data-science-principles\data-analytics-lifecycle\data-analytics-lifecycle.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Data Analytics Lifecycle/Data Analytics Lifecycle.md</guid><pubDate>Tue, 21 May 2024 16:14:41 GMT</pubDate><enclosure url="lib\media\etl-example-in-the-data-analytics-lifecycle-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\etl-example-in-the-data-analytics-lifecycle-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Data Analytics Lifecycle Canvas]]></title><description><![CDATA[ 
- <br><br><br><br><br><br><br>Do I have enough information to draft an analytic plan?<br>Do I have enough "good" data to start building the model?<br>Do I have a good idea about the type of model to try? Can I refine my analytical plan?<br>Is the model robust enough? Have we failed enough?]]></description><link>cos10022-data-science-principles\data-analytics-lifecycle\data-analytics-lifecycle-canvas.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Data Analytics Lifecycle/Data Analytics Lifecycle Canvas.canvas</guid><pubDate>Thu, 02 May 2024 02:44:28 GMT</pubDate></item><item><title><![CDATA[Problem Formulation]]></title><description><![CDATA[ 
- <br><br>Using proper techniques to solve the problem<br>]]></description><link>cos10022-data-science-principles\data-analytics-lifecycle\problem-formulation.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Data Analytics Lifecycle/Problem Formulation.md</guid><pubDate>Wed, 22 May 2024 09:53:23 GMT</pubDate></item><item><title><![CDATA[Chi-Square test]]></title><description><![CDATA[ 
- <br><br>Chi-squared (X) test for categorical data<br>
-<img alt="Chi-squared formula Image (1).png" src="\lib\media\chi-squared-formula-image-(1).png"><br>
-<img alt="Chi squared example (1).png" src="\lib\media\chi-squared-example-(1).png">Hypothesis for the example : Gender and preferred reading are independent<br>
-<img alt="Chi squared test example Image (2).png" src="\lib\media\chi-squared-test-example-image-(2).png">]]></description><link>cos10022-data-science-principles\data-preparation\(chi-square)-test.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Data Preparation/(Chi-Square) test.md</guid><pubDate>Sat, 04 May 2024 12:07:34 GMT</pubDate><enclosure url="lib\media\chi-squared-formula-image-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\chi-squared-formula-image-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Attribute subset selection]]></title><description><![CDATA[ 
- <br><br>Attribute subset selection reduces the data set size by removing irrelevant or redundant attributes<br>Heuristic methods that explore reduced search space to find "good" subset of the original attributes :<br>
-<br><a data-href="#Stepwise forward selection" href="\#Stepwise_forward_selection" class="internal-link" target="_self" rel="noopener">Stepwise forward selection</a>
-<br><a data-href="#Stepwise backward elimination" href="\#Stepwise_backward_elimination" class="internal-link" target="_self" rel="noopener">Stepwise backward elimination</a>
-<br><a data-href="#Combination of forward and backward" href="\#Combination_of_forward_and_backward" class="internal-link" target="_self" rel="noopener">Combination of forward and backward</a>
-<br>Decision tree induction
-<br>The attributes are typically determined using tests of statistical significance, which assumes that the attributes are independent of one another<br>
-Other attribute evaluation such as information gain is used in building decision trees for classification<br><br>
-<br>Start with an empty set of attributes
-<br>Determine the best of the original attributes and add it to the reduces set
-<br>At each step, add the best of the remaining original attributes to the reduced set
-<br><br>
-<br>Start with the full set of attributes
-<br>At each step, remove the worst attribute remaining in the set
-<br><br>
-<br>Start with an empty set of attributes
-<br>At each step, add the best attribute to the reduced set and removes the worst from among the remaining attributes<br>
-<img alt="Forward and backward elimination and selection Image (1).png" src="\lib\media\forward-and-backward-elimination-and-selection-image-(1).png">
-<br><br>Decision tree induction constructs a flowchart-like structure where each internal (nonleaf) node denotes a test on an attribute, each branch corresponds to an outcome of the test, and each external (leaf) node denotes a class prediction.<br>
-Decision tree induction is also almost always a binary tree (Two option tree)<br>
-<img alt="Decision tree induction example (1).png" src="\lib\media\decision-tree-induction-example-(1).png"><br>
-All attributes that do not appear in the tree are assumed to be irrelevant
-]]></description><link>cos10022-data-science-principles\data-preparation\attribute-subset-selection.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Data Preparation/Attribute subset selection.md</guid><pubDate>Wed, 15 May 2024 22:28:12 GMT</pubDate><enclosure url="lib\media\forward-and-backward-elimination-and-selection-image-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\forward-and-backward-elimination-and-selection-image-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Correlation coefficient]]></title><description><![CDATA[ 
- <br><br>Correlation coefficient (r) for numerical data (Pearson's product moment coefficient)<br>
-<img alt="Correlation Coefficient Formula Image (1).png" src="\lib\media\correlation-coefficient-formula-image-(1).png"><br>We can visually evaluate correlation using scatter plots<br>
-scatterplots shows the correlation coefficient from -1 to 1<br>
-r = 1.0 = A perfect positive relationship<br>
-r = 0 = No relationship<br>
-r = -1.0 = A perfect negative relationship]]></description><link>cos10022-data-science-principles\data-preparation\correlation-coefficient.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Data Preparation/Correlation coefficient.md</guid><pubDate>Sat, 04 May 2024 11:49:10 GMT</pubDate><enclosure url="lib\media\correlation-coefficient-formula-image-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\correlation-coefficient-formula-image-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Covariance]]></title><description><![CDATA[ 
- <br><br>Covariance (Cov) for numerical data<br>
-<img alt="Covariance Formula Image (1).png" src="\lib\media\covariance-formula-image-(1).png"><br>
-We can visually evaluate covariance between two variables using scatter plot<br>
-Cov(A, B) &lt; 0 : A and B tend to move in the opposite direction<br>
-Cov(A, B) &gt; 0 : A and B tend to move in the same direction<br>
-Cov(A, B) = 0 : A and B are independent]]></description><link>cos10022-data-science-principles\data-preparation\covariance.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Data Preparation/Covariance.md</guid><pubDate>Sat, 04 May 2024 11:52:52 GMT</pubDate><enclosure url="lib\media\covariance-formula-image-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\covariance-formula-image-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Data Cube Aggregation]]></title><description><![CDATA[ 
- <br><br>Aggregating several 2D table into a 3D table<br>
-The resulting dataset is smaller in volume without loss of information necessary for the analysis task<br><img alt="Data Cube Aggregation Image (1).png" src="\lib\media\data-cube-aggregation-image-(1).png"><br>
-e.g. An electronic company sales per quarter from year 2002 to 2004<br>
-Data cubes store multidimensional analysis of sales data with respect to annual sales per item type for each of the company branch<br>
-<br>Each cell holds an aggregate data value
-<br>Data cubes provides fast access to precomputed, summarized data, thereby benefiting on-line analytical processing as well data mining
-]]></description><link>cos10022-data-science-principles\data-preparation\data-cube-aggregation.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Data Preparation/Data cube aggregation.md</guid><pubDate>Mon, 06 May 2024 02:38:45 GMT</pubDate><enclosure url="lib\media\data-cube-aggregation-image-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\data-cube-aggregation-image-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Data Preparation Overview]]></title><description><![CDATA[ 
- <br><br>Given the presence of an analytics sandbox, the data science team-work with data and perform analytics for the duration of the project<br>Why is data preparation important?<br>
+<a data-tooltip-position="top" aria-label="https://stevetodd.typepad.com/my_weblog/2012/07/phase-6-innovation-analytics-operationalize.html" rel="noopener" class="external-link" href="https://stevetodd.typepad.com/my_weblog/2012/07/phase-6-innovation-analytics-operationalize.html" target="_blank">Information Playground: Phase 6 Innovation Analytics: Operationalize (typepad.com)</a><br><br>]]></description><link>cos10022-data-science-principles\(7)-data-analytics-lifecycle\(7)-data-analytics-lifecycle.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(7) Data Analytics Lifecycle/(7) Data Analytics Lifecycle.md</guid><pubDate>Wed, 22 May 2024 10:15:54 GMT</pubDate><enclosure url="lib\media\etl-example-in-the-data-analytics-lifecycle-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\etl-example-in-the-data-analytics-lifecycle-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Data Analytics Lifecycle Canvas]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br><br>Do I have enough information to draft an analytic plan?<br>Do I have enough "good" data to start building the model?<br>Do I have a good idea about the type of model to try? Can I refine my analytical plan?<br>Is the model robust enough? Have we failed enough?]]></description><link>cos10022-data-science-principles\(7)-data-analytics-lifecycle\data-analytics-lifecycle-canvas.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(7) Data Analytics Lifecycle/Data Analytics Lifecycle Canvas.canvas</guid><pubDate>Thu, 02 May 2024 02:44:28 GMT</pubDate></item><item><title><![CDATA[Problem Formulation Overview]]></title><description><![CDATA[ 
+ <br><br>Using proper techniques to solve the problem<br>]]></description><link>cos10022-data-science-principles\(7)-data-analytics-lifecycle\problem-formulation.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(7) Data Analytics Lifecycle/Problem Formulation.md</guid><pubDate>Wed, 22 May 2024 10:27:45 GMT</pubDate></item><item><title><![CDATA[Data Preparation Overview]]></title><description><![CDATA[ 
+ <br>
+<br><a data-tooltip-position="top" aria-label="Data Preparation Overview" data-href="#Data Preparation Overview" href="\#Data_Preparation_Overview" class="internal-link" target="_self" rel="noopener">Data Preparation Overview</a>
+
+<br><a data-tooltip-position="top" aria-label="Data Cleaning" data-href="#Data Cleaning" href="\#Data_Cleaning" class="internal-link" target="_self" rel="noopener">Data Cleaning</a>
+
+<br><a data-tooltip-position="top" aria-label="Incomplete Data" data-href="#Incomplete Data" href="\#Incomplete_Data" class="internal-link" target="_self" rel="noopener">Incomplete Data</a>
+<br><a data-tooltip-position="top" aria-label="Noisy Data" data-href="#Noisy Data" href="\#Noisy_Data" class="internal-link" target="_self" rel="noopener">Noisy Data</a>
+<br><a data-tooltip-position="top" aria-label="Data Cleaning as a Process" data-href="#Data Cleaning as a Process" href="\#Data_Cleaning_as_a_Process" class="internal-link" target="_self" rel="noopener">Data Cleaning as a Process</a>
+
+
+<br><a data-tooltip-position="top" aria-label="Data Integration" data-href="#Data Integration" href="\#Data_Integration" class="internal-link" target="_self" rel="noopener">Data Integration</a>
+<br><a data-tooltip-position="top" aria-label="Data Reduction" data-href="#Data Reduction" href="\#Data_Reduction" class="internal-link" target="_self" rel="noopener">Data Reduction</a>
+<br><a data-tooltip-position="top" aria-label="Data Transformation" data-href="#Data Transformation" href="\#Data_Transformation" class="internal-link" target="_self" rel="noopener">Data Transformation</a>
+
+<br><a data-tooltip-position="top" aria-label="Normalization" data-href="#Normalization" href="\#Normalization" class="internal-link" target="_self" rel="noopener">Normalization</a>
+<br><a data-tooltip-position="top" aria-label="Discretization" data-href="#Discretization" href="\#Discretization" class="internal-link" target="_self" rel="noopener">Discretization</a>
+<br><a data-tooltip-position="top" aria-label="Decision Tree Analysis" data-href="#Decision Tree Analysis" href="\#Decision_Tree_Analysis" class="internal-link" target="_self" rel="noopener">Decision Tree Analysis</a>
+<br><a data-tooltip-position="top" aria-label="Correlation Analysis" data-href="#Correlation Analysis" href="\#Correlation_Analysis" class="internal-link" target="_self" rel="noopener">Correlation Analysis</a>
+<br><a data-tooltip-position="top" aria-label="Concept Hierarchy Generation" data-href="#Concept Hierarchy Generation" href="\#Concept_Hierarchy_Generation" class="internal-link" target="_self" rel="noopener">Concept Hierarchy Generation</a>
+
+
+
+
+<br><br>Given the presence of an analytics sandbox, the data science team-work with data and perform analytics for the duration of the project<br>Why is data preparation important?<br>
 Well-prepared data set will saves us from debugging and additional works in the project. An organized data will be easily to be tracked and accessed<br>Data preparation must contain data quality :<br>
 <br>Accuracy
 <br>Completeness
@@ -320,12 +345,12 @@ e.g. Customer Id in one database and customer number in a another database<br>Re
 <br>Object identification (The same attribute may have have different names in different databases)
 <br>Derivable Data (One attribute may be a "derived" attribute in another table)
 <br>Redundant data can also be detected by correlation analysis<br>
-Categorical data = X <a data-href="(Chi-Square) test" href="\cos10022-data-science-principles\data-preparation\(chi-square)-test.html" class="internal-link" target="_self" rel="noopener">(Chi-Square) test</a><br>
-Numerical data = <a data-href="Correlation coefficient" href="\cos10022-data-science-principles\data-preparation\correlation-coefficient.html" class="internal-link" target="_self" rel="noopener">Correlation coefficient</a>, Covariance<br><br><br>Data reduction is obtaining a reduced representation of the data set that is much smaller in volume but yet produce the same analytical results<br>A data warehouse may store terabytes of data. As we do complex data analysis / mining resulting in a very long time to run on the complete data set<br>Several data reduction strategies :<br>
-<br><a data-href="Data cube aggregation" href="\cos10022-data-science-principles\data-preparation\data-cube-aggregation.html" class="internal-link" target="_self" rel="noopener">Data cube aggregation</a>
-<br><a data-href="Attribute subset selection" href="\cos10022-data-science-principles\data-preparation\attribute-subset-selection.html" class="internal-link" target="_self" rel="noopener">Attribute subset selection</a>
-<br><a data-href="Dimensionality reduction" href="\cos10022-data-science-principles\data-preparation\dimensionality-reduction.html" class="internal-link" target="_self" rel="noopener">Dimensionality reduction</a>
-<br><a data-href="Numerosity reduction" href="\cos10022-data-science-principles\data-preparation\numerosity-reduction.html" class="internal-link" target="_self" rel="noopener">Numerosity reduction</a>
+Categorical data = X <a data-href="(Chi-Square) test" href="\cos10022-data-science-principles\(8)-data-preparation\(chi-square)-test.html" class="internal-link" target="_self" rel="noopener">(Chi-Square) test</a><br>
+Numerical data = <a data-href="Correlation coefficient" href="\cos10022-data-science-principles\(8)-data-preparation\correlation-coefficient.html" class="internal-link" target="_self" rel="noopener">Correlation coefficient</a>, Covariance<br><br><br>Data reduction is obtaining a reduced representation of the data set that is much smaller in volume but yet produce the same analytical results<br>A data warehouse may store terabytes of data. As we do complex data analysis / mining resulting in a very long time to run on the complete data set<br>Several data reduction strategies :<br>
+<br><a data-href="Data cube aggregation" href="\cos10022-data-science-principles\(8)-data-preparation\data-cube-aggregation.html" class="internal-link" target="_self" rel="noopener">Data cube aggregation</a>
+<br><a data-href="Attribute subset selection" href="\cos10022-data-science-principles\(8)-data-preparation\attribute-subset-selection.html" class="internal-link" target="_self" rel="noopener">Attribute subset selection</a>
+<br><a data-href="Dimensionality reduction" href="\cos10022-data-science-principles\(8)-data-preparation\dimensionality-reduction.html" class="internal-link" target="_self" rel="noopener">Dimensionality reduction</a>
+<br><a data-href="Numerosity reduction" href="\cos10022-data-science-principles\(8)-data-preparation\numerosity-reduction.html" class="internal-link" target="_self" rel="noopener">Numerosity reduction</a>
 <br>Discretization and concept hierarchy generation
 <br><br><br>There are several ways to transform the data :<br>
 <br>Smoothing
@@ -358,11 +383,56 @@ Supervised = makes use of the class label<br>
 It also uses entropy to determine split point<br><img alt="Decision Tree Analysis (1).png" src="\lib\media\decision-tree-analysis-(1).png"><br><br>It uses a bottom-up merge approach<br>
 supervised = make use of the class label<br>ChiMerge = find the best neighboring intervals (Those having similar distributions of classes)<br><br>Nominal attributes have a finite(but possibly large) number of distinct values, with no ordering among the values<br>
 It reduce the data by collecting and replacing low level concepts such as numeric values for age by higher level concepts (youth, adult, senior)<br>
-<img alt="Hierarchy Concept Generation Example (1).png" src="\lib\media\hierarchy-concept-generation-example-(1).png">]]></description><link>cos10022-data-science-principles\data-preparation\data-preparation.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Data Preparation/Data Preparation.md</guid><pubDate>Mon, 06 May 2024 04:16:30 GMT</pubDate><enclosure url="lib\media\how-to-do-normalization-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\how-to-do-normalization-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Dimensional Reduction]]></title><description><![CDATA[ 
+<img alt="Hierarchy Concept Generation Example (1).png" src="\lib\media\hierarchy-concept-generation-example-(1).png">]]></description><link>cos10022-data-science-principles\(8)-data-preparation\(8)-data-preparation.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(8) Data Preparation/(8) Data Preparation.md</guid><pubDate>Wed, 22 May 2024 10:53:39 GMT</pubDate><enclosure url="lib\media\how-to-do-normalization-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\how-to-do-normalization-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Chi-Square test]]></title><description><![CDATA[ 
+ <br><br>Chi-squared (X) test for categorical data<br>
+<img alt="Chi-squared formula Image (1).png" src="\lib\media\chi-squared-formula-image-(1).png"><br>
+<img alt="Chi squared example (1).png" src="\lib\media\chi-squared-example-(1).png">Hypothesis for the example : Gender and preferred reading are independent<br>
+<img alt="Chi squared test example Image (2).png" src="\lib\media\chi-squared-test-example-image-(2).png">]]></description><link>cos10022-data-science-principles\(8)-data-preparation\(chi-square)-test.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(8) Data Preparation/(Chi-Square) test.md</guid><pubDate>Sat, 04 May 2024 12:07:34 GMT</pubDate><enclosure url="lib\media\chi-squared-formula-image-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\chi-squared-formula-image-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Attribute subset selection]]></title><description><![CDATA[ 
+ <br><br>Attribute subset selection reduces the data set size by removing irrelevant or redundant attributes<br>Heuristic methods that explore reduced search space to find "good" subset of the original attributes :<br>
+<br><a data-href="#Stepwise forward selection" href="\#Stepwise_forward_selection" class="internal-link" target="_self" rel="noopener">Stepwise forward selection</a>
+<br><a data-href="#Stepwise backward elimination" href="\#Stepwise_backward_elimination" class="internal-link" target="_self" rel="noopener">Stepwise backward elimination</a>
+<br><a data-href="#Combination of forward and backward" href="\#Combination_of_forward_and_backward" class="internal-link" target="_self" rel="noopener">Combination of forward and backward</a>
+<br>Decision tree induction
+<br>The attributes are typically determined using tests of statistical significance, which assumes that the attributes are independent of one another<br>
+Other attribute evaluation such as information gain is used in building decision trees for classification<br><br>
+<br>Start with an empty set of attributes
+<br>Determine the best of the original attributes and add it to the reduces set
+<br>At each step, add the best of the remaining original attributes to the reduced set
+<br><br>
+<br>Start with the full set of attributes
+<br>At each step, remove the worst attribute remaining in the set
+<br><br>
+<br>Start with an empty set of attributes
+<br>At each step, add the best attribute to the reduced set and removes the worst from among the remaining attributes<br>
+<img alt="Forward and backward elimination and selection Image (1).png" src="\lib\media\forward-and-backward-elimination-and-selection-image-(1).png">
+<br><br>Decision tree induction constructs a flowchart-like structure where each internal (nonleaf) node denotes a test on an attribute, each branch corresponds to an outcome of the test, and each external (leaf) node denotes a class prediction.<br>
+Decision tree induction is also almost always a binary tree (Two option tree)<br>
+<img alt="Decision tree induction example (1).png" src="\lib\media\decision-tree-induction-example-(1).png"><br>
+All attributes that do not appear in the tree are assumed to be irrelevant
+]]></description><link>cos10022-data-science-principles\(8)-data-preparation\attribute-subset-selection.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(8) Data Preparation/Attribute subset selection.md</guid><pubDate>Wed, 15 May 2024 22:28:12 GMT</pubDate><enclosure url="lib\media\forward-and-backward-elimination-and-selection-image-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\forward-and-backward-elimination-and-selection-image-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Correlation coefficient]]></title><description><![CDATA[ 
+ <br><br>Correlation coefficient (r) for numerical data (Pearson's product moment coefficient)<br>
+<img alt="Correlation Coefficient Formula Image (1).png" src="\lib\media\correlation-coefficient-formula-image-(1).png"><br>We can visually evaluate correlation using scatter plots<br>
+scatterplots shows the correlation coefficient from -1 to 1<br>
+r = 1.0 = A perfect positive relationship<br>
+r = 0 = No relationship<br>
+r = -1.0 = A perfect negative relationship]]></description><link>cos10022-data-science-principles\(8)-data-preparation\correlation-coefficient.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(8) Data Preparation/Correlation coefficient.md</guid><pubDate>Sat, 04 May 2024 11:49:10 GMT</pubDate><enclosure url="lib\media\correlation-coefficient-formula-image-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\correlation-coefficient-formula-image-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Covariance]]></title><description><![CDATA[ 
+ <br><br>Covariance (Cov) for numerical data<br>
+<img alt="Covariance Formula Image (1).png" src="\lib\media\covariance-formula-image-(1).png"><br>
+We can visually evaluate covariance between two variables using scatter plot<br>
+Cov(A, B) &lt; 0 : A and B tend to move in the opposite direction<br>
+Cov(A, B) &gt; 0 : A and B tend to move in the same direction<br>
+Cov(A, B) = 0 : A and B are independent]]></description><link>cos10022-data-science-principles\(8)-data-preparation\covariance.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(8) Data Preparation/Covariance.md</guid><pubDate>Sat, 04 May 2024 11:52:52 GMT</pubDate><enclosure url="lib\media\covariance-formula-image-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\covariance-formula-image-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Data Cube Aggregation]]></title><description><![CDATA[ 
+ <br><br>Aggregating several 2D table into a 3D table<br>
+The resulting dataset is smaller in volume without loss of information necessary for the analysis task<br><img alt="Data Cube Aggregation Image (1).png" src="\lib\media\data-cube-aggregation-image-(1).png"><br>
+e.g. An electronic company sales per quarter from year 2002 to 2004<br>
+Data cubes store multidimensional analysis of sales data with respect to annual sales per item type for each of the company branch<br>
+<br>Each cell holds an aggregate data value
+<br>Data cubes provides fast access to precomputed, summarized data, thereby benefiting on-line analytical processing as well data mining
+]]></description><link>cos10022-data-science-principles\(8)-data-preparation\data-cube-aggregation.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(8) Data Preparation/Data cube aggregation.md</guid><pubDate>Mon, 06 May 2024 02:38:45 GMT</pubDate><enclosure url="lib\media\data-cube-aggregation-image-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\data-cube-aggregation-image-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Dimensional Reduction]]></title><description><![CDATA[ 
  <br><br>In dimensionality reduction, data encoding or transformations are applied to obtain a reduced or "compressed" representation of the original data<br>Lossless = if the original data can be reconstructed from the compressed data without any loss of information<br>
 Lossy = if only an approximation of the original data can be reconstructed from the compressed data<br>Example = Principal Component Analysis (PCA)<br><br>PCA reduces the dimensionality the number of features of a dataset by maintaining as much variance as possible<br><img alt="Dimensional Reduction Image (1).png" src="\lib\media\dimensional-reduction-image-(1).png"><br>
 Example = (Gene Expression)<br>
-The original expression by 3 genes is projected to two new dimensions, which allow us to draw qualitative conclusions about the separability of experimental conditions]]></description><link>cos10022-data-science-principles\data-preparation\dimensionality-reduction.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Data Preparation/Dimensionality reduction.md</guid><pubDate>Mon, 06 May 2024 03:16:52 GMT</pubDate><enclosure url="lib\media\dimensional-reduction-image-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\dimensional-reduction-image-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Numerosity Reduction]]></title><description><![CDATA[ 
+The original expression by 3 genes is projected to two new dimensions, which allow us to draw qualitative conclusions about the separability of experimental conditions]]></description><link>cos10022-data-science-principles\(8)-data-preparation\dimensionality-reduction.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(8) Data Preparation/Dimensionality reduction.md</guid><pubDate>Mon, 06 May 2024 03:16:52 GMT</pubDate><enclosure url="lib\media\dimensional-reduction-image-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\dimensional-reduction-image-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Numerosity Reduction]]></title><description><![CDATA[ 
  <br><br>Numerosity reduction techniques replace the original data volume by choosing alternative, smaller forms of data representation<br>
 e.g. Our grades at university divided into pass, credit, distinction, HD<br>(It can be something like binning)<br>Parametric methods<br>
 <br>These methods assume that the data fits some models
@@ -383,7 +453,7 @@ Same data can be drawn again cause after we record, we put the data back to the 
 We pre-classify the data into different clusters and decide how many samples do you want to have from each of the group equally
 <br>Stratified Sample<br>
 Tuples in D is divided into mutually disjoint parts called strata (50% of the group in the raw data), with sampling random sampling at each stratum
-]]></description><link>cos10022-data-science-principles\data-preparation\numerosity-reduction.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Data Preparation/Numerosity reduction.md</guid><pubDate>Mon, 06 May 2024 03:42:32 GMT</pubDate><enclosure url="lib\media\parametric-method-of-numerosity-reduction-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\parametric-method-of-numerosity-reduction-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[(1) Data Science Overview]]></title><description><![CDATA[ 
+]]></description><link>cos10022-data-science-principles\(8)-data-preparation\numerosity-reduction.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(8) Data Preparation/Numerosity reduction.md</guid><pubDate>Mon, 06 May 2024 03:42:32 GMT</pubDate><enclosure url="lib\media\parametric-method-of-numerosity-reduction-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\parametric-method-of-numerosity-reduction-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[(1) Data Science Overview]]></title><description><![CDATA[ 
  <br>
 <br><a data-tooltip-position="top" aria-label="(1) Data Science Overview" data-href="#(1) Data Science Overview" href="\#(1)_Data_Science_Overview" class="internal-link" target="_self" rel="noopener">(1) Data Science Overview</a>
 
@@ -458,7 +528,7 @@ Now we have plenty of data science to play with that is why data science started
 
 
 <br><br>Regression is the most simple data science model (Linear or Logistic)<br>
-Simple and does not require long training time<br>Regression is part of the Model building stage in the <a data-href="Data Analytics Lifecycle" href="\cos10022-data-science-principles\data-analytics-lifecycle\data-analytics-lifecycle.html" class="internal-link" target="_self" rel="noopener">Data Analytics Lifecycle</a><br><br>Predictive models are data analytics algorithms used for predicting certain attributes of a given object<br>
+Simple and does not require long training time<br>Regression is part of the Model building stage in the <a data-href="(7) Data Analytics Lifecycle" href="\cos10022-data-science-principles\(7)-data-analytics-lifecycle\(7)-data-analytics-lifecycle.html" class="internal-link" target="_self" rel="noopener">(7) Data Analytics Lifecycle</a><br><br>Predictive models are data analytics algorithms used for predicting certain attributes of a given object<br>
 The goal of predictive model differs from unsupervised models which are limited to finding specific patterns or structures within the data
 <br>Predictive models works by training the data then testing the model with a test dataset<br>
 (Training and test datasets are independent of each other)<br><br>Linear regression is one of the oldest supervised / predictive models. Linear regression belongs to what is called parametric learning or parameter modeling<br>
@@ -481,7 +551,7 @@ It is also called z-score normalisation, which transfors the data so that the re
 <br><br>Logistic regression is a special case of regression analysis and is calculated when the dependent variable is nominally or ordinally scaled<br><br>Logistic regression uses sigmoid function<br>Sigmoid Function (S)<br>
 It only produces 0 (Belongs to one particular group) and 1 (Belongs to the other particular group)<br>
 e.g. yes (1) or no (0)
-<br>A logistic function or logistic curve is a common S-shaped curve (Sigmoid curve) with equation<br><br>where z stands for the linear regression function]]></description><link>cos10022-data-science-principles\(2)-regressions.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(2) Regressions.md</guid><pubDate>Tue, 21 May 2024 12:30:10 GMT</pubDate></item><item><title><![CDATA[(3) Clustering Overview]]></title><description><![CDATA[ 
+<br>A logistic function or logistic curve is a common S-shaped curve (Sigmoid curve) with equation<br><br>where z stands for the linear regression function]]></description><link>cos10022-data-science-principles\(2)-regressions.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(2) Regressions.md</guid><pubDate>Wed, 22 May 2024 10:10:57 GMT</pubDate></item><item><title><![CDATA[(3) Clustering Overview]]></title><description><![CDATA[ 
  <br>
 <br><a data-tooltip-position="top" aria-label="(3) Clustering Overview" data-href="#(3) Clustering Overview" href="\#(3)_Clustering_Overview" class="internal-link" target="_self" rel="noopener">(3) Clustering Overview</a>
 
@@ -662,7 +732,106 @@ We can use pre-pruning or post-pruning<br>Common Pruning methods :<br>
 <br>Decision Tree Training
 <br>Aggregation for predictions (Majority vote)<br>
 <img alt="How Random Forest Work (1).png" src="\lib\media\how-random-forest-work-(1).png">
-]]></description><link>cos10022-data-science-principles\(5)-ensemble-learning.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(5) Ensemble Learning.md</guid><pubDate>Wed, 22 May 2024 08:50:03 GMT</pubDate><enclosure url="lib\media\how-random-forest-work-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\how-random-forest-work-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Data analytics methods]]></title><description><![CDATA[ 
+]]></description><link>cos10022-data-science-principles\(5)-ensemble-learning.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(5) Ensemble Learning.md</guid><pubDate>Wed, 22 May 2024 08:50:03 GMT</pubDate><enclosure url="lib\media\how-random-forest-work-(1).png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\how-random-forest-work-(1).png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Data Ethics]]></title><description><![CDATA[ 
+ <br>
+<br><a data-tooltip-position="top" aria-label="Data Ethics" data-href="#Data Ethics" href="\#Data_Ethics" class="internal-link" target="_self" rel="noopener">Data Ethics</a>
+<br><a data-tooltip-position="top" aria-label="Data Security" data-href="#Data Security" href="\#Data_Security" class="internal-link" target="_self" rel="noopener">Data Security</a>
+<br><br>It refers to the moral principles and values that govern the collection, use and dissemination of data<br>Data ethics involves a range of considerations including :<br>
+<br>Privacy<br>
+Protecting the personal information of individuals and preventing its misuse
+<br>Consent<br>
+We need to obtain informed consent from  individuals
+<br>Transparency<br>
+Being transparent how data is collected, used and shared
+<br>Bias<br>
+Don't be bias in data collection and analysis
+<br>Security
+<br>Accountability
+<br>
+Ethics approval is a must before the project can go into the execution phase
+<br>Some common steps :<br>
+<br>Familiarize yourself with ethical principles<br>
+Understand ethical principles that govern research, respect for autonomy, beneficence, non-maleficence and justice
+<br>Develop a research proposal<br>
+Provide a detailed description of the research question, methods and potential risks and benefits to participants. Must also include plan to obtain informed consent, protect participant privacy and minimize potential harms
+<br>Submit application<br>
+Submit ethics application to the appropriate research ethics committee or institutional review board (IRB)
+<br>Wait for approval
+<br>Obtain informed consent
+<br>Conduct our research
+<br><br>It refers to the protection of digital data such as files, databases, other sensitive information from unauthorized access, use, disclosure, modification or destruction. It involves implementing measures to prevent data breaches, theft and other forms of cyber-attacks that can compromise the confidentiality, integrity and availability of data<br>Data security measures :<br>
+<br>Access controls<br>
+Limiting access to sensitive data by requiring authentication
+<br>Encryption<br>
+Encode sensitive data, making it unreadable to unauthorized users
+<br>Network security<br>
+Securing networks with firewalls, intrusion detection and prevention systems
+<br>Physical security<br>
+Protecting servers, hard drives and mobile devices with physical access controls
+<br>Data backup and recovery<br>
+Regularly backing up data to ensure that it can be restored in an event of a data breach or system failure
+<br>Data retention policies<br>
+Establishing policies and procedures for retaining and disposing of data in accordance with legal and regulatory requirements
+]]></description><link>cos10022-data-science-principles\(7)-data-ethics-&amp;-security.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(7) Data Ethics &amp; Security.md</guid><pubDate>Wed, 22 May 2024 10:41:15 GMT</pubDate></item><item><title><![CDATA[(7) Data Store Overview]]></title><description><![CDATA[ 
+ <br>
+<br><a data-tooltip-position="top" aria-label="(7) Data Store Overview" data-href="#(7) Data Store Overview" href="\#(7)_Data_Store_Overview" class="internal-link" target="_self" rel="noopener">(7) Data Store Overview</a>
+
+<br><a data-tooltip-position="top" aria-label="Data types" data-href="#Data types" href="\#Data_types" class="internal-link" target="_self" rel="noopener">Data types</a>
+<br><a data-tooltip-position="top" aria-label="Categories" data-href="#Categories" href="\#Categories" class="internal-link" target="_self" rel="noopener">Categories</a>
+
+
+<br><br>The basic unit in computer systems, everything is stored in bits<br>
+1 bit is capable of representing "0" and "1"<br><br>Commmonly seen data in our daily life :<br>
+<br>Text Data<br>
+ASCII code uses 7 bits to encode symbols<br>
+Unicode uses 8, 16 or 32 bits include much more symbols in different languages
+<br>Image Data<br>
+It uses a combination of 3 channel of RGB (3 Main Color) to create an image<br>
+Each channel has a single dot = It contains 8 bits<br>
+1 Pixel = 3 bytes
+<br>Audio Data<br>
+Audio signal is composed of two parts, DC component and the AC component<br>
+The DC part serves a bias for raising the level of volume. It is usually removed before analysing the signal
+<br>Streaming / Video Data<br>
+It like stacking up an image in a series along with a timeline<br>
+It uses Frame as a measure of the timeline
+<br>3D Image
+<br>Trajectory Data<br>
+It uses 3 elements (Latitude, Longtitude and Timestamp)
+<br><br>Data :<br>
+<br>Category Data
+<br>
+<br>Text
+<br>
+<br>Numerical Data
+<br>
+<br>Audio
+<br>Image
+<br>Streaming / Video
+<br>Trajectory
+<br>Etc
+<br>Data based on dimension :<br>
+<br>1D
+<br>
+<br>Text
+<br>Audio
+<br>
+<br>2D
+<br>
+<br>Image
+<br>
+<br>3D
+<br>
+<br>Streaming / Video
+<br>Trajectory
+<br>Data itself :<br>
+<br>Continuous
+<br>
+<br>Audio
+<br>Trajectory (In real world)
+<br>
+<br>Discrete
+<br>Check out <a data-href="Data Types" href="\data-organization\data-types\data-types.html" class="internal-link" target="_self" rel="noopener">Data Types</a>]]></description><link>cos10022-data-science-principles\(7)-data-store.html</link><guid isPermaLink="false">COS10022 Data Science Principles/(7) Data Store.md</guid><pubDate>Wed, 22 May 2024 10:41:47 GMT</pubDate></item><item><title><![CDATA[Data analytics methods]]></title><description><![CDATA[ 
  <br><br><br>EDA is an approach to analysing datasets to summarize their main characteristics, often with visual methods<br>We can easily shows the relationship a data with Survey and visualize<br>
 Four important types of data visualization :<br>
 <br>Tables
@@ -720,6 +889,8 @@ The power of a test improves as the sample size increases<br>In the difference o
 Compared to T-test we test 1 single group to the overall population but in ANOVA we can compare multiple groups simultaneously<br>
 <img alt="ANOVA Example (1).png" src="\lib\media\anova-example-(1).png">]]></description><link>cos10022-data-science-principles\basic-data-analytics-methods.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Basic Data Analytics Methods.md</guid><pubDate>Mon, 06 May 2024 11:46:40 GMT</pubDate><enclosure url="lib\media\mean,-median,-mode.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\mean,-median,-mode.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[COS10022 Data Science Principles]]></title><description><![CDATA[ 
  <br><br>
+<br><a data-href="COS10022 Data Science Principles" href="\cos10022-data-science-principles\cos10022-data-science-principles.html" class="internal-link" target="_self" rel="noopener">COS10022 Data Science Principles</a>
+
 <br><a data-href="(1) Data Science" href="\cos10022-data-science-principles\(1)-data-science.html" class="internal-link" target="_self" rel="noopener">(1) Data Science</a>
 <br><a data-href="(2) Regressions" href="\cos10022-data-science-principles\(2)-regressions.html" class="internal-link" target="_self" rel="noopener">(2) Regressions</a>
 <br><a data-href="(3) Clustering" href="\cos10022-data-science-principles\(3)-clustering.html" class="internal-link" target="_self" rel="noopener">(3) Clustering</a>
@@ -728,117 +899,32 @@ Compared to T-test we test 1 single group to the overall population but in ANOVA
 <br><a data-href="(5) Ensemble Learning" href="\cos10022-data-science-principles\(5)-ensemble-learning.html" class="internal-link" target="_self" rel="noopener">(5) Ensemble Learning</a>
 <br><a data-href="(6) Association Rules" href="\cos10022-data-science-principles\(6)-association-rules\(6)-association-rules.html" class="internal-link" target="_self" rel="noopener">(6) Association Rules</a>
 
+<br><a data-href="(6) Association Rules" href="\cos10022-data-science-principles\(6)-association-rules\(6)-association-rules.html" class="internal-link" target="_self" rel="noopener">(6) Association Rules</a>
 <br><a data-href="Creating Frequent Sets Example" href="\cos10022-data-science-principles\(6)-association-rules\creating-frequent-sets-example.html" class="internal-link" target="_self" rel="noopener">Creating Frequent Sets Example</a>
 
 
+<br><a data-href="(7) Data Analytics Lifecycle" href="\cos10022-data-science-principles\(7)-data-analytics-lifecycle\(7)-data-analytics-lifecycle.html" class="internal-link" target="_self" rel="noopener">(7) Data Analytics Lifecycle</a>
+
+<br><a data-href="(7) Data Analytics Lifecycle" href="\cos10022-data-science-principles\(7)-data-analytics-lifecycle\(7)-data-analytics-lifecycle.html" class="internal-link" target="_self" rel="noopener">(7) Data Analytics Lifecycle</a>
+<br><a data-href="Problem Formulation" href="\cos10022-data-science-principles\(7)-data-analytics-lifecycle\problem-formulation.html" class="internal-link" target="_self" rel="noopener">Problem Formulation</a>
+
+
+<br><a data-href="(7) Data Ethics &amp; Security" href="\cos10022-data-science-principles\(7)-data-ethics-&amp;-security.html" class="internal-link" target="_self" rel="noopener">(7) Data Ethics &amp; Security</a>
+<br><a data-href="(7) Data Store" href="\cos10022-data-science-principles\(7)-data-store.html" class="internal-link" target="_self" rel="noopener">(7) Data Store</a>
+<br><a data-href="(8) Data Preparation" href="\cos10022-data-science-principles\(8)-data-preparation\(8)-data-preparation.html" class="internal-link" target="_self" rel="noopener">(8) Data Preparation</a>
+
+<br><a data-href="(8) Data Preparation" href="\cos10022-data-science-principles\(8)-data-preparation\(8)-data-preparation.html" class="internal-link" target="_self" rel="noopener">(8) Data Preparation</a>
+<br><a data-href="(Chi-Square) test" href="\cos10022-data-science-principles\(8)-data-preparation\(chi-square)-test.html" class="internal-link" target="_self" rel="noopener">(Chi-Square) test</a>
+<br><a data-href="Attribute subset selection" href="\cos10022-data-science-principles\(8)-data-preparation\attribute-subset-selection.html" class="internal-link" target="_self" rel="noopener">Attribute subset selection</a>
+<br><a data-href="Correlation coefficient" href="\cos10022-data-science-principles\(8)-data-preparation\correlation-coefficient.html" class="internal-link" target="_self" rel="noopener">Correlation coefficient</a>
+<br><a data-href="Covariance" href="\cos10022-data-science-principles\(8)-data-preparation\covariance.html" class="internal-link" target="_self" rel="noopener">Covariance</a>
+<br><a data-href="Data cube aggregation" href="\cos10022-data-science-principles\(8)-data-preparation\data-cube-aggregation.html" class="internal-link" target="_self" rel="noopener">Data cube aggregation</a>
+<br><a data-href="Dimensionality reduction" href="\cos10022-data-science-principles\(8)-data-preparation\dimensionality-reduction.html" class="internal-link" target="_self" rel="noopener">Dimensionality reduction</a>
+<br><a data-href="Numerosity reduction" href="\cos10022-data-science-principles\(8)-data-preparation\numerosity-reduction.html" class="internal-link" target="_self" rel="noopener">Numerosity reduction</a>
+
+
 <br><a data-href="Basic Data Analytics Methods" href="\cos10022-data-science-principles\basic-data-analytics-methods.html" class="internal-link" target="_self" rel="noopener">Basic Data Analytics Methods</a>
-<br><a data-href="Data Analytics Lifecycle" href="\cos10022-data-science-principles\data-analytics-lifecycle\data-analytics-lifecycle.html" class="internal-link" target="_self" rel="noopener">Data Analytics Lifecycle</a>
-
-<br><a data-href="Problem Formulation" href="\cos10022-data-science-principles\data-analytics-lifecycle\problem-formulation.html" class="internal-link" target="_self" rel="noopener">Problem Formulation</a>
+<br><a data-href="COS10022 Data Science Principles" href="\cos10022-data-science-principles\cos10022-data-science-principles.html" class="internal-link" target="_self" rel="noopener">COS10022 Data Science Principles</a>
 
 
-<br><a data-href="Data Ethics" href="\cos10022-data-science-principles\data-ethics.html" class="internal-link" target="_self" rel="noopener">Data Ethics</a>
-<br><a data-href="Data Preparation" href="\cos10022-data-science-principles\data-preparation\data-preparation.html" class="internal-link" target="_self" rel="noopener">Data Preparation</a>
-
-<br><a data-href="(Chi-Square) test" href="\cos10022-data-science-principles\data-preparation\(chi-square)-test.html" class="internal-link" target="_self" rel="noopener">(Chi-Square) test</a>
-<br><a data-href="Attribute subset selection" href="\cos10022-data-science-principles\data-preparation\attribute-subset-selection.html" class="internal-link" target="_self" rel="noopener">Attribute subset selection</a>
-<br><a data-href="Correlation coefficient" href="\cos10022-data-science-principles\data-preparation\correlation-coefficient.html" class="internal-link" target="_self" rel="noopener">Correlation coefficient</a>
-<br><a data-href="Covariance" href="\cos10022-data-science-principles\data-preparation\covariance.html" class="internal-link" target="_self" rel="noopener">Covariance</a>
-<br><a data-href="Data cube aggregation" href="\cos10022-data-science-principles\data-preparation\data-cube-aggregation.html" class="internal-link" target="_self" rel="noopener">Data cube aggregation</a>
-<br><a data-href="Dimensionality reduction" href="\cos10022-data-science-principles\data-preparation\dimensionality-reduction.html" class="internal-link" target="_self" rel="noopener">Dimensionality reduction</a>
-<br><a data-href="Numerosity reduction" href="\cos10022-data-science-principles\data-preparation\numerosity-reduction.html" class="internal-link" target="_self" rel="noopener">Numerosity reduction</a>
-
-
-<br><a data-href="Data Security" href="\cos10022-data-science-principles\data-security.html" class="internal-link" target="_self" rel="noopener">Data Security</a>
-<br><a data-href="Data Store" href="\cos10022-data-science-principles\data-store.html" class="internal-link" target="_self" rel="noopener">Data Store</a>
-<br><br>FolderContains 0 folders, 2 notes.(6) Association RulesFolderContains 0 folders, 3 notes.Data Analytics LifecycleFolderContains 0 folders, 8 notes.Data PreparationNote<a class="internal-link" href="\cos10022-data-science-principles\(1)-data-science.html" target="_self"></a>`table-of-contents5/21/2024, 10:17:46 PMNote<a class="internal-link" href="\cos10022-data-science-principles\(2)-regressions.html" target="_self"></a>`table-of-contents5/21/2024, 10:30:10 PMNote<a class="internal-link" href="\cos10022-data-science-principles\(3)-clustering.html" target="_self"></a>`table-of-contents5/22/2024, 2:50:30 AMNote<a class="internal-link" href="\cos10022-data-science-principles\(4)-model-evaluation.html" target="_self"></a>`table-of-contents5/22/2024, 6:49:48 PMNote<a class="internal-link" href="\cos10022-data-science-principles\(4)-naïve-bayes-classifier.html" target="_self"></a>`table-of-contents5/22/2024, 6:04:26 PM<a class="internal-link" href="\cos10022-data-science-principles\(5)-ensemble-learning.html" target="_self"></a>`table-of-contents5/22/2024, 6:50:03 PM<a class="internal-link" href="\cos10022-data-science-principles\basic-data-analytics-methods.html" target="_self"></a>EDA is an approach to analysing datasets to summarize their main...5/6/2024, 9:46:40 PMNote<a class="internal-link" href="\cos10022-data-science-principles\data-ethics.html" target="_self"></a>It refers to the moral principles and values that govern the col...5/2/2024, 11:08:16 PMNote<a class="internal-link" href="\cos10022-data-science-principles\data-security.html" target="_self"></a>It refers to the protection of digital data such as files, datab...5/2/2024, 11:13:38 PMNote<a class="internal-link" href="\cos10022-data-science-principles\data-store.html" target="_self"></a>The basic unit in computer systems, everything is stored in bits5/2/2024, 10:52:17 PM]]></description><link>cos10022-data-science-principles\cos10022-data-science-principles.html</link><guid isPermaLink="false">COS10022 Data Science Principles/COS10022 Data Science Principles.md</guid><pubDate>Wed, 22 May 2024 09:53:24 GMT</pubDate></item><item><title><![CDATA[Data Ethics]]></title><description><![CDATA[ 
- <br><br>It refers to the moral principles and values that govern the collection, use and dissemination of data<br>Data ethics involves a range of considerations including :<br>
-<br>Privacy<br>
-Protecting the personal information of individuals and preventing its misuse
-<br>Consent<br>
-We need to obtain informed consent from  individuals
-<br>Transparency<br>
-Being transparent how data is collected, used and shared
-<br>Bias<br>
-Don't be bias in data collection and analysis
-<br>Security
-<br>Accountability
-<br>
-Ethics approval is a must before the project can go into the execution phase
-<br>Some common steps :<br>
-<br>Familiarize yourself with ethical principles<br>
-Understand ethical principles that govern research, respect for autonomy, beneficence, non-maleficence and justice
-<br>Develop a research proposal<br>
-Provide a detailed description of the research question, methods and potential risks and benefits to participants. Must also include plan to obtain informed consent, protect participant privacy and minimize potential harms
-<br>Submit application<br>
-Submit ethics application to the appropriate research ethics committee or institutional review board (IRB)
-<br>Wait for approval
-<br>Obtain informed consent
-<br>Conduct our research
-]]></description><link>cos10022-data-science-principles\data-ethics.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Data Ethics.md</guid><pubDate>Thu, 02 May 2024 13:08:16 GMT</pubDate></item><item><title><![CDATA[Data Security]]></title><description><![CDATA[ 
- <br><br>It refers to the protection of digital data such as files, databases, other sensitive information from unauthorized access, use, disclosure, modification or destruction. It involves implementing measures to prevent data breaches, theft and other forms of cyber-attacks that can compromise the confidentiality, integrity and availability of data<br>Data security measures :<br>
-<br>Access controls<br>
-Limiting access to sensitive data by requiring authentication
-<br>Encryption<br>
-Encode sensitive data, making it unreadable to unauthorized users
-<br>Network security<br>
-Securing networks with firewalls, intrusion detection and prevention systems
-<br>Physical security<br>
-Protecting servers, hard drives and mobile devices with physical access controls
-<br>Data backup and recovery<br>
-Regularly backing up data to ensure that it can be restored in an event of a data breach or system failure
-<br>Data retention policies<br>
-Establishing policies and procedures for retaining and disposing of data in accordance with legal and regulatory requirements
-]]></description><link>cos10022-data-science-principles\data-security.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Data Security.md</guid><pubDate>Thu, 02 May 2024 13:13:38 GMT</pubDate></item><item><title><![CDATA[Data Store]]></title><description><![CDATA[ 
- <br><br>The basic unit in computer systems, everything is stored in bits<br>
-1 bit is capable of representing "0" and "1"<br><br>Commmonly seen data in our daily life :<br>
-<br>Text Data<br>
-ASCII code uses 7 bits to encode symbols<br>
-Unicode uses 8, 16 or 32 bits include much more symbols in different languages
-<br>Image Data<br>
-It uses a combination of 3 channel of RGB (3 Main Color) to create an image<br>
-Each channel has a single dot = It contains 8 bits<br>
-1 Pixel = 3 bytes
-<br>Audio Data<br>
-Audio signal is composed of two parts, DC component and the AC component<br>
-The DC part serves a bias for raising the level of volume. It is usually removed before analysing the signal
-<br>Streaming / Video Data<br>
-It like stacking up an image in a series along with a timeline<br>
-It uses Frame as a measure of the timeline
-<br>3D Image
-<br>Trajectory Data<br>
-It uses 3 elements (Latitude, Longtitude and Timestamp)
-<br><br>Data :<br>
-<br>Category Data
-<br>
-<br>Text
-<br>
-<br>Numerical Data
-<br>
-<br>Audio
-<br>Image
-<br>Streaming / Video
-<br>Trajectory
-<br>Etc
-<br>Data based on dimension :<br>
-<br>1D
-<br>
-<br>Text
-<br>Audio
-<br>
-<br>2D
-<br>
-<br>Image
-<br>
-<br>3D
-<br>
-<br>Streaming / Video
-<br>Trajectory
-<br>Data itself :<br>
-<br>Continuous
-<br>
-<br>Audio
-<br>Trajectory (In real world)
-<br>
-<br>Discrete
-<br>Check out <a data-href="Data Types" href="\data-organization\data-types\data-types.html" class="internal-link" target="_self" rel="noopener">Data Types</a>]]></description><link>cos10022-data-science-principles\data-store.html</link><guid isPermaLink="false">COS10022 Data Science Principles/Data Store.md</guid><pubDate>Thu, 02 May 2024 12:52:17 GMT</pubDate></item></channel></rss>
+<br><br><br>FolderContains 0 folders, 2 notes.(6) Association RulesFolderContains 0 folders, 3 notes.(7) Data Analytics LifecycleFolderContains 0 folders, 8 notes.(8) Data PreparationNote<a class="internal-link" href="\cos10022-data-science-principles\(1)-data-science.html" target="_self"></a>`table-of-contents5/21/2024, 10:17:46 PMNote<a class="internal-link" href="\cos10022-data-science-principles\(2)-regressions.html" target="_self"></a>`table-of-contents5/22/2024, 8:10:57 PMNote<a class="internal-link" href="\cos10022-data-science-principles\(3)-clustering.html" target="_self"></a>`table-of-contents5/22/2024, 2:50:30 AMNote<a class="internal-link" href="\cos10022-data-science-principles\(4)-model-evaluation.html" target="_self"></a>`table-of-contents5/22/2024, 6:49:48 PMNote<a class="internal-link" href="\cos10022-data-science-principles\(4)-naïve-bayes-classifier.html" target="_self"></a>`table-of-contents5/22/2024, 6:04:26 PM<a class="internal-link" href="\cos10022-data-science-principles\(5)-ensemble-learning.html" target="_self"></a>`table-of-contents5/22/2024, 6:50:03 PMNote<a class="internal-link" href="\cos10022-data-science-principles\(7)-data-ethics-&amp;-security.html" target="_self"></a>`table-of-contents5/22/2024, 8:41:15 PMNote<a class="internal-link" href="\cos10022-data-science-principles\(7)-data-store.html" target="_self"></a>`table-of-contents5/22/2024, 8:41:47 PM<a class="internal-link" href="\cos10022-data-science-principles\basic-data-analytics-methods.html" target="_self"></a>EDA is an approach to analysing datasets to summarize their main...5/6/2024, 9:46:40 PM]]></description><link>cos10022-data-science-principles\cos10022-data-science-principles.html</link><guid isPermaLink="false">COS10022 Data Science Principles/COS10022 Data Science Principles.md</guid><pubDate>Wed, 22 May 2024 10:53:25 GMT</pubDate></item></channel></rss>
