@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨ Happy Birthday! ✨</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <h1>🎉 Happy Birthday! 🎉</h1>
+        <h2>✨ Natalia Sanjaya ✨</h2>
+            <button id="playAudio">Press Me! 🎵</button>
+            <audio id="myAudio" src="happybirthdayjazz.mp3" loop></audio>
+
+            <script>
+                document.getElementById("playAudio").addEventListener("click", () => {
+                    const audio = document.getElementById("myAudio");
+                    audio.play().catch(err => console.error("Error playing audio:", err));
+                    document.getElementById("playAudio").style.display = "none"; // Hide button after play
+                });
+            </script>
+        <div id="slideshow">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <div class="slide active">
+                <img src="images/img5.jpg" alt="Memory 2" loading="lazy">
+                <div class="text">
+                    <h3>Amazing Blow!</h3>
+                    <p>Fuuuu!!! Niup sampe kapan bu? hmmm liaten pipine, nyempluk? Wes niup lilin belom?</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/img4.jpg" alt="Memory 3" loading="lazy">
+                <div class="text">
+                    <h3>Amazing Rock!</h3>
+                    <p>Biasane comment orang fotone jelek, ini terus foto apa? Jalan di Stonehenge?</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/img7.jpg" alt="Memory 4" loading="lazy">
+                <div class="text">
+                    <h3>Amazing Randomness!</h3>
+                    <p>Ohh ya taa? Mosok sehh?</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/img2.jpg" alt="Memory 5" loading="lazy">
+                <div class="text">
+                    <h3>Amazing Youth!</h3>
+                    <p>Keliatan masih bocil banget ya?</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/img6.jpg" alt="Memory 6" loading="lazy">
+                <div class="text">
+                    <h3>Amazing Aging!</h3>
+                    <p>Gimana mbak? Kehidupan susah yaa, muka e kok tambah kayak tersiksa ya hehe. Agak dibandino foto sebelum e kok ini ngerasa tertekan gitu ya. Cup cup ya stay strong</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/img8.jpg" alt="Memory 8" loading="lazy">
+                <div class="text">
+                    <h3>Amazing Adventure!</h3>
+                    <p>Happy ya? Ketemu adik e setelah sekian lama merantau di Jakarta ga pernah pulang? Iya iya gpp, ip emang lucu dan fun kok orang nya. Sini - sini ta kasih surat rahasia. <strong>Look below!</strong></p>
+                </div>
+            </div>
+        </div>
+        <div class="thumbnail-nav"></div>
+        <div class="controls">
+            <button id="prev">❮ Previous</button>
+            <button id="autoplay">Pause</button>
+            <button id="next">Next ❯</button>
+        </div>
+
+        <!-- Button to reveal the letter -->
+<button id="revealLetter" class="letter-button">Reveal Your Special Letter ✨</button>
+
+<!-- The Thank You Letter Section -->
+<div id="thankYouLetter" class="letter-container">
+    <h2>Dear Natalia,</h2>
+    <p>You know what yang amazing lagi apa? Your life existence in this world! Amazing journey isn't it? Every memory captured in these photos is a proof that you are here with each moment has been special in its own way. I am so grateful to be able to witness these moments of you!</p>
+    <br>
+    <p>As you celebrate this special day, may it be a reminder of everything you’ve accomplished so far — each milestone you’ve reached and every challenge you’ve overcome with strength, grace, and determination. Every friend or foe you have encountered all along the way. People who came to your life and went away from your life. Or even those who decided to stay.</p>
+    <br>
+    <p>Each one and thing has played a part in the beautiful story of who you are today. This birthday isn’t just about celebrating another year of life, but it’s a celebration of the amazing person you are. May this birthday remind you of all the amazing things you have done, and the countless more you will accomplish in the years to come.</p>
+    <br>
+    <p>As you embark on another year of life, I hope it brings you joy and happiness. May this year be filled with exciting opportunities, surprises, new adventures, and all the love you deserve. Remember to slow down and not give up, this one may fail but others is still waiting — I'm cheering you on every step of the way!</p>
+    <br>
+    <p>Here's to many more memories, adventures, and birthdays to come. Cheers to you, the amazing person you are!</p>
+    <br>
+    <p><strong>With love and gratitude,</strong></p>
+    <p>Ip</p>
+    <br>
+    
+    <div class="poem">
+        <h2>A Celebration of You</h2>
+        <p>On this special day we gather near, <br>To celebrate the one we hold dear. <br>A journey filled with laughter and grace, <br>You brighten the world with your smiling face.</p>
+        
+        <p>The path you've walked, so full of might, <br>With courage, love, and pure delight. <br>You’ve conquered fears, embraced the new, <br>With every challenge, you’ve grown and grew.</p>
+
+        <p>In moments of joy, in moments of tears, <br>You’ve made memories that will last for years. <br>And as the years ahead unfold, <br>More stories of greatness will be told.</p>
+
+        <p>So today, as candles light the way, <br>We celebrate you in every way. <br>May happiness fill the days you see, <br>For you are a gift to all, endlessly.</p>
+    </div>
+</div>
+<div id="countdown">
+    <h2>Countdown to your next birthday</h2>
+    <div id="timeRemaining"></div>
+</div>
+    </div>
+    <audio id="myAudio" muted>
+        <source src="happybirthdayjazz.mp3" type="audio/mp3" loop>
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>
